@@ -1,0 +1,20 @@
+[project]
+name = "dslrecommendationsystem"
+version = "0.1.0"
+description = "DSL recommendation system for the JetBrains MPS ecosystem"
+authors = [
+    {name = "Ana Carolina Poltronieri Rodrigues",email = "anapoltronieri.aluno@unipampa.edu.br"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "uvicorn (>=0.41.0,<0.42.0)",
+    "sqlalchemy (>=2.0.48,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
