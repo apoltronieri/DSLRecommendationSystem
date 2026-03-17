@@ -21,35 +21,7 @@ FRAMEWORK_MAP = {
         "conforms_to": "MPS Metamodeling Environment",
         "abstraction": "PIM",
         "file_format": [".mps", ".mpl", ".msd"],
-    },
-    "xtext": {
-        "artifact_type": "DSL",
-        "modeling_ecossystem": "Eclipse Xtext",
-        "conforms_to": "Xtext Grammar Specification",
-        "abstraction": "PIM",
-        "file_format": [".xtext", ".mwe2"],
-    },
-    "antlr": {
-        "artifact_type": "Grammar",
-        "modeling_ecossystem": "ANTLR",
-        "conforms_to": "ANTLR Grammar",
-        "abstraction": "PSM",
-        "file_format": [".g4"],
-    },
-    "emf": {
-        "artifact_type": "Metamodel",
-        "modeling_ecossystem": "Eclipse EMF",
-        "conforms_to": "Ecore Metamodel",
-        "abstraction": "PIM",
-        "file_format": [".ecore", ".genmodel"],
-    },
-    "langium": {
-        "artifact_type": "DSL",
-        "modeling_ecossystem": "Langium",
-        "conforms_to": "Langium Grammar",
-        "abstraction": "PIM",
-        "file_format": [".langium"],
-    },
+    }
 }
 
 
@@ -69,7 +41,7 @@ def infer_domain_purpose_from_gemini(repo_id, enriched_map):
         dominio = gem.get("domain", "unknown")
         proposito = gem.get("purpose", "unknown")
         return dominio, proposito
-    except:
+    except Exception:
         return "unknown", "unknown"
 
 
@@ -140,8 +112,8 @@ def save_rass(assets, filename):
 
 if __name__ == "__main__":
     assets = build_rass(
-        saida_path="saida.json",
-        classifier_path="classified_output.json",
-        enriched_path="classified_output_enriched.json"
+        saida_path="rass.json",
+        classifier_path="analyzed_repos.json",
+        enriched_path="analyzed_repos_enriched.json",
     )
     save_rass(assets, "rass++.json")
