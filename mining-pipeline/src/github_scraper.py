@@ -19,7 +19,7 @@ from config import (
     CB_RECOVERY_TIME,
 )
 
-logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 load_dotenv()
 
@@ -73,7 +73,7 @@ def handle_rate_limit(response):
         if remaining <= 1:
             reset_ts = int(response.headers.get("X-RateLimit-Reset", time.time() + 5))
             wait = max(reset_ts - int(time.time()), 1)
-            logging.warning(f"Rate limit reached. Waiting {wait}s")
+            logger.warning(f"Rate limit reached. Waiting {wait}s")
             time.sleep(wait)
 
 
@@ -88,7 +88,7 @@ def robust_get(url, headers=None, params=None, retries=RETRIES, timeout=TIMEOUT)
 
     while attempt < retries:
         try:
-
+            logger.debug(f"GET {url} | attempt={attempt}")
             resp = requests.get(url, headers=headers, params=params, timeout=timeout)
 
             if resp.status_code == 429:
@@ -99,13 +99,12 @@ def robust_get(url, headers=None, params=None, retries=RETRIES, timeout=TIMEOUT)
 
             circuit_breaker_on_success()
             return resp
-
-        except requests.exceptions.RequestException:
-
+        except requests.exceptions.RequestException as e:
+            logger.warning(f"Request error: {e} | attempt={attempt}")
             attempt += 1
             time.sleep(2**attempt)
             circuit_breaker_on_failure()
-
+    logger.error(f"Failed to GET {url} after {retries} attempts.")
     raise RuntimeError("Failure after multiple attempts.")
 
 
@@ -142,6 +141,7 @@ def search_repositories_with_pagination(query, per_page, max_pages):
         r = robust_get(url, headers=HEADERS, params=params)
 
         if r.status_code != 200:
+            logger.error(f"GitHub API error: {r.status_code} - {r.text}")
             break
 
         data = r.json()
@@ -324,24 +324,24 @@ def save_cache(cache):
 
     with open(CACHE_FILE, "w") as f:
         json.dump(cache, f, indent=2)
+        logger.info(f"Cache saved ({len(cache)} entries)")
 
 
 def finding_dsl_models(cache):
 
     for framework, cfg in QUERY.items():
 
-        logging.info(f"Framework: {framework}")
+        logger.info(f"Processing framework: {framework}")
 
         for query in cfg["queries"]:
 
-            logging.info(f"Searching: {query}")
+            logger.info(f"Searching: {query}")
 
             items = search_repositories_with_pagination(query, PER_PAGE, MAX_PAGES)
 
-            logging.info(f"Repos returned: {len(items)}")
+            logger.info(f"Repos returned: {len(items)}")
 
             for repo in items:
-
                 owner = repo["owner"]["login"]
                 name = repo["name"]
 
@@ -350,9 +350,11 @@ def finding_dsl_models(cache):
                 last_push = repo["pushed_at"]
 
                 if repo_id in cache and cache[repo_id] == last_push:
+                    logger.debug(f"Skipping {repo_id} (cached)")
                     continue
 
                 if not is_potential_model_repo(owner, name, framework):
+                    logger.debug(f"Filtered out {repo_id}")
                     continue
 
                 model_info = {
@@ -373,17 +375,18 @@ def finding_dsl_models(cache):
 
                 cache[repo_id] = last_push
 
-                logging.info(f"{owner}/{name} - stars {model_info['stars']}")
+                logger.info(f"{owner}/{name} - stars {model_info['stars']}")
 
                 if len(found_models) % SAVE_EVERY == 0:
 
                     with open(DATASET_FILE, "w") as f:
                         json.dump(found_models, f, indent=2)
 
-                    logging.info(f"Saved intermediate results ({len(found_models)})")
+                    logger.info(f"Saved intermediate results ({len(found_models)})")
 
 
 if __name__ == "__main__":
+    logger.info("Starting DSL mining pipeline")
 
     cache = load_cache()
 
@@ -391,14 +394,12 @@ if __name__ == "__main__":
 
     save_cache(cache)
 
-    logging.info(f"Total models found: {len(found_models)}")
+    logger.info(f"Total models found: {len(found_models)}")
 
     found_models.sort(key=lambda x: x["stars"], reverse=True)
 
     for i, model in enumerate(found_models[:5]):
-        logging.info(
-            f"{i+1}. {model['owner']}/{model['name']} - {model['stars']} stars"
-        )
+        logger.info(f"{i+1}. {model['owner']}/{model['name']} - {model['stars']} stars")
 
     with open(DATASET_FILE, "w") as f:
         json.dump(found_models, f, indent=2)
