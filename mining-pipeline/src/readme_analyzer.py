@@ -78,6 +78,7 @@ Return a STRICT JSON object with the following keys:
 
 if __name__ == "__main__":
     print("Starting automated analysis...")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
     with open("analyzed_repos.json", "r") as f:
         repos = json.load(f)

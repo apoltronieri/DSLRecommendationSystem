@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 import os
 import urllib.parse
 import logging
+from logger import setup_logger
+
 
 from config import (
     TIMEOUT,
@@ -19,6 +21,7 @@ from config import (
     CB_RECOVERY_TIME,
 )
 
+setup_logger()
 logger = logging.getLogger(__name__)
 
 load_dotenv()
@@ -312,11 +315,20 @@ def is_potential_model_repo(owner, repo_name, framework):
 
 
 def load_cache():
-
     if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, "r") as f:
-            return json.load(f)
+        try:
+            with open(CACHE_FILE, "r") as f:
+                content = f.read().strip()
 
+                if not content:
+                    logger.warning("Cache file is empty.")
+                    return {}
+
+            return json.loads(content)
+        except json.JSONDecodeError:
+            logger.warning("Cache file is corrupted")
+            return {}
+    logger.info("no cavhe file found. opening new file")
     return {}
 
 

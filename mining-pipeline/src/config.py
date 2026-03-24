@@ -16,8 +16,8 @@ MAX_PAGES = 3
 
 SAVE_EVERY = 10
 
-CACHE_FILE = "repo_cache.json"
-DATASET_FILE = "dsl_models_found.json"
+DATASET_FILE = "dataset/dsl_models_found.json"
+CACHE_FILE = "mining-pipeline/cache/repos_seen.json"
 
 CB_FAILURE_THRESHOLD = 5
 CB_RECOVERY_TIME = 30
