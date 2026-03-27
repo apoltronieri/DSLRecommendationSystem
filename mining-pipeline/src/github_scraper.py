@@ -14,9 +14,7 @@ from config import (
     RETRIES,
     PER_PAGE,
     MAX_PAGES,
-    SAVE_EVERY,
     CACHE_FILE,
-    DATASET_FILE,
     CB_FAILURE_THRESHOLD,
     CB_RECOVERY_TIME,
 )
@@ -328,7 +326,7 @@ def load_cache():
         except json.JSONDecodeError:
             logger.warning("Cache file is corrupted")
             return {}
-    logger.info("no cavhe file found. opening new file")
+    logger.info("no cache file found. opening new file")
     return {}
 
 
@@ -389,12 +387,27 @@ def finding_dsl_models(cache):
 
                 logger.info(f"{owner}/{name} - stars {model_info['stars']}")
 
-                if len(found_models) % SAVE_EVERY == 0:
 
-                    with open(DATASET_FILE, "w") as f:
-                        json.dump(found_models, f, indent=2)
+def generate_dataset_file_name():
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    return f"dataset/dsl_models_found_{timestamp}.json"
 
-                    logger.info(f"Saved intermediate results ({len(found_models)})")
+
+def save_dataset(data):
+    filename = generate_dataset_file_name()
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=2)
+
+    logger.info(f"Dataset saved in: {filename}")
+
+    return filename
+
+
+def update_latest_pointer(filename):
+    with open("dataset/latest.json", "w") as f:
+        json.dump({"latest": filename}, f)
+
+    logger.info(f"Latest update: {filename}")
 
 
 if __name__ == "__main__":
@@ -413,5 +426,5 @@ if __name__ == "__main__":
     for i, model in enumerate(found_models[:5]):
         logger.info(f"{i+1}. {model['owner']}/{model['name']} - {model['stars']} stars")
 
-    with open(DATASET_FILE, "w") as f:
-        json.dump(found_models, f, indent=2)
+    dataset_file = save_dataset(found_models)
+    update_latest_pointer(dataset_file)

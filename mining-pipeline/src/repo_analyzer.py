@@ -22,6 +22,7 @@ class RepositoryInfo:
         contributors_count,
         commits_count,
         last_commit_date,
+        tier,
     ):
         self.name = name
         self.owner = owner
@@ -32,6 +33,7 @@ class RepositoryInfo:
         self.commits_count = commits_count
         self.created_at = created_at
         self.last_commit_date = last_commit_date
+        self.tier = tier
 
     def is_valid(self):
         if not self.last_commit_date or self.last_commit_date in (
@@ -53,46 +55,55 @@ class RepositoryInfo:
 
         stars = getattr(self, "stars", 0)
 
-        if stars >= 500:
-            score += 50
-        elif stars >= 200:
-            score += 40
-        elif stars >= 100:
-            score += 30
-        elif stars >= 30:
-            score += 20
-        elif stars >= 10:
+        if stars >= 50:
             score += 10
+        elif stars >= 20:
+            score += 7
+        elif stars >= 5:
+            score += 4
+        elif stars >= 1:
+            score += 2
 
-        if days_last_commit <= 90:
-            score += 20
-        elif days_last_commit <= 180:
+        if days_last_commit <= 180:
             score += 15
         elif days_last_commit <= 365:
             score += 10
         elif days_last_commit <= 720:
-            score += 5
+            score += 6
+        elif days_last_commit <= 1095:
+            score += 3
 
         if self.contributors_count >= 5:
-            score += 15
-        elif self.contributors_count >= 3:
             score += 10
+        elif self.contributors_count >= 3:
+            score += 7
         elif self.contributors_count >= 2:
-            score += 5
+            score += 4
         elif self.contributors_count == 1:
             score += 2
 
-        if self.commits_count >= 200:
+        if self.commits_count >= 100:
             score += 15
-        elif self.commits_count >= 100:
-            score += 10
         elif self.commits_count >= 50:
-            score += 5
-        elif self.commits_count >= 10:
-            score += 2
+            score += 10
+        elif self.commits_count >= 20:
+            score += 6
+        elif self.commits_count >= 5:
+            score += 3
 
         self._latest_score = score
-        return score >= 40
+
+        if self._latest_score >= 30:
+            self.tier = "A"
+        elif self._latest_score >= 20:
+            self.tier = "B"
+        elif self._latest_score >= 10:
+            self.tier = "C"
+        else:
+            self.tier = None
+            return False
+
+        return True
 
     def obj_to_dict(self):
         return {
@@ -105,76 +116,80 @@ class RepositoryInfo:
             "description": self.description,
             "url": self.url,
             "stars": getattr(self, "stars", 0),
+            "tier": self.tier,
         }
 
 
-class RepositoryAnalyzer:
-    def __init__(self):
-        self.repositories = []
+def extract_from_json(filename):
+    with open(filename, "r") as f:
+        return json.load(f)
 
-    def enrich_from_json(self, filename):
-        print("[DEBUG] enrich_from_json INICIO")
 
+def transform_repositories(data):
+    repositories = []
+
+    for item in data:
         try:
-            print(f"[DEBUG] Lendo JSON: {filename}")
-            with open(filename, "r") as f:
-                data = json.load(f)
-            print("[DEBUG] JSON carregado:", len(data))
+            repo = RepositoryInfo(
+                name=item["name"],
+                owner=item["owner"],
+                contributors_count=item.get("contributors", 0),
+                commits_count=item.get("total_commits", 0),
+                created_at=item.get("first_commit"),
+                description=item.get("description"),
+                url=item.get("url"),
+                last_commit_date=item.get("last_commit"),
+                stars=item.get("stars", 0),
+                tier=item.get("tier"),
+            )
+
+            if repo.is_valid():
+                repositories.append(repo)
+
         except Exception as e:
-            print("[ERRO] Falha ao ler JSON:", repr(e))
-            return
+            logger.error(f"Error processing repo: {repr(e)}")
 
-        for idx, item in enumerate(data, start=1):
-            try:
-                owner = item["owner"]
-                name = item["name"]
+    return repositories
 
-                print(f"[DEBUG] ({idx}) {owner}/{name}")
 
-                repo = RepositoryInfo(
-                    name=name,
-                    owner=owner,
-                    contributors_count=item.get("contributors", 0),
-                    commits_count=item.get("total_commits", 0),
-                    created_at=item.get("first_commit", "1970-01-01T00:00:00Z"),
-                    description=item.get("description", "No description"),
-                    url=item.get("url", ""),
-                    last_commit_date=item.get("last_commit"),
-                    stars=item.get("stars", 0),
-                )
+def generate_output_filename(prefix="analyzed_repos"):
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    return f"{prefix}_{timestamp}.json"
 
-                if repo.is_valid():
-                    print(
-                        f"[DEBUG] VALIDO: {owner}/{name} | score={repo._latest_score}"
-                    )
-                    self.repositories.append(repo)
-                else:
-                    print(f"[DEBUG] INVALIDO: {owner}/{name}")
 
-            except Exception as e:
-                print(f"[ERRO] {item.get('owner')}/{item.get('name')}: {repr(e)}")
+def load_results_grouped(repositories, filename):
+    grouped = {"A": [], "B": [], "C": []}
 
-        print("[DEBUG] FIM. Total válidos:", len(self.repositories))
+    for repo in repositories:
+        if repo.tier:
+            grouped[repo.tier].append(repo.obj_to_dict())
 
-    def save_results_to_json(self, filename):
-        with open(filename, "w") as f:
-            json.dump([r.obj_to_dict() for r in self.repositories], f, indent=4)
+    with open(filename, "w") as f:
+        json.dump(grouped, f, indent=4)
 
-        print(f"Results saved to {filename}")
+    logger.info(f"Grouped results saved to {filename}")
+
+
+def update_latest(filename):
+    with open("../dataset/latest.json", "w") as f:
+        json.dump({"latest": filename}, f)
+
+
+def run_pipeline(input_file, output_file):
+    logger.info("Starting ETL pipeline")
+
+    data = extract_from_json(input_file)
+    logger.info(f"Extracted {len(data)} items")
+
+    repos = transform_repositories(data)
+    logger.info(f"Transformed: {len(repos)} valid repositories")
+
+    load_results_grouped(repos, output_file)
+
+    logger.info("Pipeline finished")
 
 
 if __name__ == "__main__":
-    print("[DEBUG] Entrou no main")
-
-    analyzer = RepositoryAnalyzer()
-
-    analyzer.enrich_from_json("dsl_models_found.json")
-
-    print("\nValid repositories found:", len(analyzer.repositories))
-
-    for repo in analyzer.repositories:
-        print(
-            f"- {repo.name} | Owner: {repo.owner} | Commits: {repo.commits_count} | Contributors: {repo.contributors_count}"
-        )
-
-    analyzer.save_results_to_json("analyzed_repos.json")
+    output_file = generate_output_filename()
+    run_pipeline("../dataset/dsl_models_found.json", output_file)
+    update_latest(output_file)
