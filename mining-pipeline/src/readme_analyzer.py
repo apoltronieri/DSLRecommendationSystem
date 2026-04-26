@@ -1,7 +1,7 @@
 import requests
 import base64
 import json
-import google.generativeai as genai
+from google import genai
 from urllib.parse import urlparse
 import os
 
@@ -10,8 +10,8 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 
 def setup_gemini():
-    genai.configure(api_key=GEMINI_API_KEY)
-    return genai.GenerativeModel("gemini-2.5-flash")
+    # Inicializa o cliente com a chave da API usando o novo SDK
+    return genai.Client(api_key=GEMINI_API_KEY)
 
 
 def extract_repo_info(url):
@@ -42,7 +42,7 @@ def get_github_readme(repo_url):
 
 
 def analyze_with_gemini(readme_content):
-    model = setup_gemini()
+    client = setup_gemini()
 
     prompt = f"""
 Act as an expert in Software Engineering and Model-Driven Engineering (MDE). Analyze the README below.
@@ -70,7 +70,9 @@ Return a STRICT JSON object with the following keys:
     """
 
     try:
-        response = model.generate_content(prompt)
+        response = client.models.generate_content(
+            model="gemini-2.5-pro", contents=prompt
+        )
         return response.text
     except Exception:
         return None
@@ -98,4 +100,4 @@ if __name__ == "__main__":
     with open("analyzed_repos_enriched.json", "w") as f:
         json.dump(repos, f, indent=4, ensure_ascii=False)
 
-    print("Process completed. Output saved to classified_output_enriched.json.")
+    print("Process completed. Output saved to analyzed_repos_enriched.json.")
