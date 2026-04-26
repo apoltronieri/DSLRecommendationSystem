@@ -1,0 +1,1227 @@
+[
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-langvis",
+    "stars": 4,
+    "url": "https://github.com/DSLFoundry/mps-langvis",
+    "found_at": "2026-04-10T17:20:27.904137"
+  },
+  {
+    "owner": "specificlanguages",
+    "name": "mps-to-json-exporter",
+    "stars": 2,
+    "url": "https://github.com/specificlanguages/mps-to-json-exporter",
+    "found_at": "2026-04-10T17:20:28.306658"
+  },
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-graphicalstructureeditor",
+    "stars": 3,
+    "url": "https://github.com/DSLFoundry/mps-graphicalstructureeditor",
+    "found_at": "2026-04-10T17:20:28.735420"
+  },
+  {
+    "owner": "xwavex",
+    "name": "mps-lang-to-ecore",
+    "stars": 2,
+    "url": "https://github.com/xwavex/mps-lang-to-ecore",
+    "found_at": "2026-04-10T17:20:29.113304"
+  },
+  {
+    "owner": "maystar",
+    "name": "LanguageVisualization",
+    "stars": 3,
+    "url": "https://github.com/maystar/LanguageVisualization",
+    "found_at": "2026-04-10T17:20:29.479984"
+  },
+  {
+    "owner": "krishnanm86",
+    "name": "Emf_MPS_Importer",
+    "stars": 0,
+    "url": "https://github.com/krishnanm86/Emf_MPS_Importer",
+    "found_at": "2026-04-10T17:20:32.410969"
+  },
+  {
+    "owner": "rosym-project",
+    "name": "mps-to-ecore-plugin",
+    "stars": 0,
+    "url": "https://github.com/rosym-project/mps-to-ecore-plugin",
+    "found_at": "2026-04-10T17:20:33.899036"
+  },
+  {
+    "owner": "JetBrains",
+    "name": "mps-kotlin-typesystem",
+    "stars": 7,
+    "url": "https://github.com/JetBrains/mps-kotlin-typesystem",
+    "found_at": "2026-04-10T17:20:41.412410"
+  },
+  {
+    "owner": "kbirken",
+    "name": "MPS_TypesystemExperiments",
+    "stars": 0,
+    "url": "https://github.com/kbirken/MPS_TypesystemExperiments",
+    "found_at": "2026-04-10T17:20:41.798142"
+  },
+  {
+    "owner": "enikao",
+    "name": "mps-generator-typesystem",
+    "stars": 0,
+    "url": "https://github.com/enikao/mps-generator-typesystem",
+    "found_at": "2026-04-10T17:20:42.207416"
+  },
+  {
+    "owner": "mpSamples",
+    "name": "mps.samples.typesystem",
+    "stars": 1,
+    "url": "https://github.com/mpSamples/mps.samples.typesystem",
+    "found_at": "2026-04-10T17:20:42.580034"
+  },
+  {
+    "owner": "ls-it-solutions",
+    "name": "ConstraintsSample",
+    "stars": 0,
+    "url": "https://github.com/ls-it-solutions/ConstraintsSample",
+    "found_at": "2026-04-10T17:20:43.838275"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-tables",
+    "stars": 7,
+    "url": "https://github.com/slisson/mps-tables",
+    "found_at": "2026-04-10T17:20:47.517732"
+  },
+  {
+    "owner": "CampagneLaboratory",
+    "name": "Editor2PDF",
+    "stars": 10,
+    "url": "https://github.com/CampagneLaboratory/Editor2PDF",
+    "found_at": "2026-04-10T17:20:47.945691"
+  },
+  {
+    "owner": "Kripner",
+    "name": "textGenGen",
+    "stars": 9,
+    "url": "https://github.com/Kripner/textGenGen",
+    "found_at": "2026-04-10T17:20:48.327721"
+  },
+  {
+    "owner": "digital-ember",
+    "name": "elmMPS",
+    "stars": 22,
+    "url": "https://github.com/digital-ember/elmMPS",
+    "found_at": "2026-04-10T17:20:48.795583"
+  },
+  {
+    "owner": "CROSSINGTUD",
+    "name": "Crysl-MPS",
+    "stars": 0,
+    "url": "https://github.com/CROSSINGTUD/Crysl-MPS",
+    "found_at": "2026-04-10T17:20:49.180628"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-aec",
+    "stars": 3,
+    "url": "https://github.com/slisson/mps-aec",
+    "found_at": "2026-04-10T17:20:49.628236"
+  },
+  {
+    "owner": "RiwanC",
+    "name": "SpecEdit",
+    "stars": 7,
+    "url": "https://github.com/RiwanC/SpecEdit",
+    "found_at": "2026-04-10T17:20:50.181058"
+  },
+  {
+    "owner": "coolya",
+    "name": "Durchblick",
+    "stars": 9,
+    "url": "https://github.com/coolya/Durchblick",
+    "found_at": "2026-04-10T17:20:50.564881"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-multiline",
+    "stars": 5,
+    "url": "https://github.com/slisson/mps-multiline",
+    "found_at": "2026-04-10T17:20:50.953971"
+  },
+  {
+    "owner": "tudo-aqua",
+    "name": "mps-diagram-svg-export",
+    "stars": 2,
+    "url": "https://github.com/tudo-aqua/mps-diagram-svg-export",
+    "found_at": "2026-04-10T17:20:51.312963"
+  },
+  {
+    "owner": "aborg0",
+    "name": "plantuml",
+    "stars": 0,
+    "url": "https://github.com/aborg0/plantuml",
+    "found_at": "2026-04-10T17:20:51.656528"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-editor-override",
+    "stars": 1,
+    "url": "https://github.com/slisson/mps-editor-override",
+    "found_at": "2026-04-10T17:20:52.393618"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-conditional-editor",
+    "stars": 0,
+    "url": "https://github.com/slisson/mps-conditional-editor",
+    "found_at": "2026-04-10T17:20:52.790958"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-advanced-editors",
+    "stars": 1,
+    "url": "https://github.com/slisson/mps-advanced-editors",
+    "found_at": "2026-04-10T17:20:53.215114"
+  },
+  {
+    "owner": "slisson",
+    "name": "mps-boolean-editor",
+    "stars": 0,
+    "url": "https://github.com/slisson/mps-boolean-editor",
+    "found_at": "2026-04-10T17:20:53.575351"
+  },
+  {
+    "owner": "Geno1024",
+    "name": "MidiEditor-MPS",
+    "stars": 0,
+    "url": "https://github.com/Geno1024/MidiEditor-MPS",
+    "found_at": "2026-04-10T17:20:54.017001"
+  },
+  {
+    "owner": "enikao",
+    "name": "ConditionalRichtextIssue",
+    "stars": 0,
+    "url": "https://github.com/enikao/ConditionalRichtextIssue",
+    "found_at": "2026-04-10T17:20:54.381294"
+  },
+  {
+    "owner": "gutmanl",
+    "name": "mps-timekeeping",
+    "stars": 0,
+    "url": "https://github.com/gutmanl/mps-timekeeping",
+    "found_at": "2026-04-10T17:20:54.757122"
+  },
+  {
+    "owner": "MetaR-Languages",
+    "name": "Editor2PDF",
+    "stars": 0,
+    "url": "https://github.com/MetaR-Languages/Editor2PDF",
+    "found_at": "2026-04-10T17:20:55.276755"
+  },
+  {
+    "owner": "gutmanl",
+    "name": "mps-timekeeping-tables",
+    "stars": 0,
+    "url": "https://github.com/gutmanl/mps-timekeeping-tables",
+    "found_at": "2026-04-10T17:20:55.758258"
+  },
+  {
+    "owner": "specificlanguages",
+    "name": "sample-open-inspector",
+    "stars": 0,
+    "url": "https://github.com/specificlanguages/sample-open-inspector",
+    "found_at": "2026-04-10T17:20:56.166011"
+  },
+  {
+    "owner": "BrunoVernay",
+    "name": "OpenScad-IDE",
+    "stars": 1,
+    "url": "https://github.com/BrunoVernay/OpenScad-IDE",
+    "found_at": "2026-04-10T17:20:56.533593"
+  },
+  {
+    "owner": "mar9000",
+    "name": "ecmascript4mps",
+    "stars": 41,
+    "url": "https://github.com/mar9000/ecmascript4mps",
+    "found_at": "2026-04-10T17:21:07.533426"
+  },
+  {
+    "owner": "JetBrains",
+    "name": "fbme",
+    "stars": 23,
+    "url": "https://github.com/JetBrains/fbme",
+    "found_at": "2026-04-10T17:21:08.232487"
+  },
+  {
+    "owner": "vaclav",
+    "name": "voicemenu",
+    "stars": 35,
+    "url": "https://github.com/vaclav/voicemenu",
+    "found_at": "2026-04-10T17:21:08.867055"
+  },
+  {
+    "owner": "nkoester",
+    "name": "mps-json",
+    "stars": 16,
+    "url": "https://github.com/nkoester/mps-json",
+    "found_at": "2026-04-10T17:21:09.275738"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mps-qa",
+    "stars": 9,
+    "url": "https://github.com/mbeddr/mps-qa",
+    "found_at": "2026-04-10T17:21:09.924677"
+  },
+  {
+    "owner": "Workday",
+    "name": "mps-code-reviewer",
+    "stars": 16,
+    "url": "https://github.com/Workday/mps-code-reviewer",
+    "found_at": "2026-04-10T17:21:10.299194"
+  },
+  {
+    "owner": "premun",
+    "name": "ingrid",
+    "stars": 24,
+    "url": "https://github.com/premun/ingrid",
+    "found_at": "2026-04-10T17:21:10.796065"
+  },
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-plaintextgen",
+    "stars": 21,
+    "url": "https://github.com/DSLFoundry/mps-plaintextgen",
+    "found_at": "2026-04-10T17:21:11.202479"
+  },
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-examples",
+    "stars": 10,
+    "url": "https://github.com/DSLFoundry/mps-examples",
+    "found_at": "2026-04-10T17:21:12.173561"
+  },
+  {
+    "owner": "Veselroger",
+    "name": "DSL",
+    "stars": 1,
+    "url": "https://github.com/Veselroger/DSL",
+    "found_at": "2026-04-10T17:21:12.852308"
+  },
+  {
+    "owner": "alexanderpann",
+    "name": "SweetDSL",
+    "stars": 8,
+    "url": "https://github.com/alexanderpann/SweetDSL",
+    "found_at": "2026-04-10T17:21:13.384341"
+  },
+  {
+    "owner": "inspirer",
+    "name": "mps-core",
+    "stars": 6,
+    "url": "https://github.com/inspirer/mps-core",
+    "found_at": "2026-04-10T17:21:14.055202"
+  },
+  {
+    "owner": "diederikd",
+    "name": "Projectwetstaal",
+    "stars": 3,
+    "url": "https://github.com/diederikd/Projectwetstaal",
+    "found_at": "2026-04-10T17:21:14.497027"
+  },
+  {
+    "owner": "itnef",
+    "name": "mps-lambda",
+    "stars": 5,
+    "url": "https://github.com/itnef/mps-lambda",
+    "found_at": "2026-04-10T17:21:15.316712"
+  },
+  {
+    "owner": "nkoester",
+    "name": "mps-dot",
+    "stars": 5,
+    "url": "https://github.com/nkoester/mps-dot",
+    "found_at": "2026-04-10T17:21:15.710380"
+  },
+  {
+    "owner": "UST-DeMAF",
+    "name": "mps-transformation-kubernetes",
+    "stars": 0,
+    "url": "https://github.com/UST-DeMAF/mps-transformation-kubernetes",
+    "found_at": "2026-04-10T17:21:16.556859"
+  },
+  {
+    "owner": "mpslang",
+    "name": "mpsLua",
+    "stars": 2,
+    "url": "https://github.com/mpslang/mpsLua",
+    "found_at": "2026-04-10T17:21:16.964473"
+  },
+  {
+    "owner": "ProgramLeague",
+    "name": "ShapeBuilderLanguage",
+    "stars": 7,
+    "url": "https://github.com/ProgramLeague/ShapeBuilderLanguage",
+    "found_at": "2026-04-10T17:21:17.332661"
+  },
+  {
+    "owner": "seanpm2001",
+    "name": "Learn-Jetbrains-MPS",
+    "stars": 2,
+    "url": "https://github.com/seanpm2001/Learn-Jetbrains-MPS",
+    "found_at": "2026-04-10T17:21:17.880815"
+  },
+  {
+    "owner": "ryanbrainard",
+    "name": "mps-calc",
+    "stars": 2,
+    "url": "https://github.com/ryanbrainard/mps-calc",
+    "found_at": "2026-04-10T17:21:18.636519"
+  },
+  {
+    "owner": "seanpm2001",
+    "name": "AI2001_Category-Source_Code-SC-JetBrains-MPS",
+    "stars": 2,
+    "url": "https://github.com/seanpm2001/AI2001_Category-Source_Code-SC-JetBrains-MPS",
+    "found_at": "2026-04-10T17:21:19.618807"
+  },
+  {
+    "owner": "iconmaster5326",
+    "name": "BinaryGen",
+    "stars": 3,
+    "url": "https://github.com/iconmaster5326/BinaryGen",
+    "found_at": "2026-04-10T17:21:20.160973"
+  },
+  {
+    "owner": "ponyatov",
+    "name": "MPS",
+    "stars": 0,
+    "url": "https://github.com/ponyatov/MPS",
+    "found_at": "2026-04-10T17:21:21.065987"
+  },
+  {
+    "owner": "diederikd",
+    "name": "GN",
+    "stars": 0,
+    "url": "https://github.com/diederikd/GN",
+    "found_at": "2026-04-10T17:21:23.240306"
+  },
+  {
+    "owner": "diederikd",
+    "name": "ProjectIL",
+    "stars": 1,
+    "url": "https://github.com/diederikd/ProjectIL",
+    "found_at": "2026-04-10T17:21:23.647041"
+  },
+  {
+    "owner": "diederikd",
+    "name": "ProjectKerntaal",
+    "stars": 0,
+    "url": "https://github.com/diederikd/ProjectKerntaal",
+    "found_at": "2026-04-10T17:21:24.273890"
+  },
+  {
+    "owner": "seanpm2001",
+    "name": "SNU_2D_ProgrammingTools_IDE_Jetbrains-MPS",
+    "stars": 2,
+    "url": "https://github.com/seanpm2001/SNU_2D_ProgrammingTools_IDE_Jetbrains-MPS",
+    "found_at": "2026-04-10T17:21:24.635570"
+  },
+  {
+    "owner": "coolya",
+    "name": "Lochkarte",
+    "stars": 2,
+    "url": "https://github.com/coolya/Lochkarte",
+    "found_at": "2026-04-10T17:21:25.124471"
+  },
+  {
+    "owner": "mpslang",
+    "name": "mpsCoffeeScript",
+    "stars": 0,
+    "url": "https://github.com/mpslang/mpsCoffeeScript",
+    "found_at": "2026-04-10T17:21:25.559539"
+  },
+  {
+    "owner": "MarekKodr",
+    "name": "Furniture_Workshop",
+    "stars": 0,
+    "url": "https://github.com/MarekKodr/Furniture_Workshop",
+    "found_at": "2026-04-10T17:21:26.199679"
+  },
+  {
+    "owner": "mpslang",
+    "name": "mpsGo",
+    "stars": 0,
+    "url": "https://github.com/mpslang/mpsGo",
+    "found_at": "2026-04-10T17:21:26.688242"
+  },
+  {
+    "owner": "MarekKodr",
+    "name": "Basic_CSS",
+    "stars": 0,
+    "url": "https://github.com/MarekKodr/Basic_CSS",
+    "found_at": "2026-04-10T17:21:27.447901"
+  },
+  {
+    "owner": "mpslang",
+    "name": "mpsClojure",
+    "stars": 1,
+    "url": "https://github.com/mpslang/mpsClojure",
+    "found_at": "2026-04-10T17:21:27.913691"
+  },
+  {
+    "owner": "mpslang",
+    "name": "mpsPHP",
+    "stars": 1,
+    "url": "https://github.com/mpslang/mpsPHP",
+    "found_at": "2026-04-10T17:21:28.297725"
+  },
+  {
+    "owner": "mjul",
+    "name": "mps-calculator-tutorial",
+    "stars": 0,
+    "url": "https://github.com/mjul/mps-calculator-tutorial",
+    "found_at": "2026-04-10T17:21:28.732455"
+  },
+  {
+    "owner": "polymorfiq",
+    "name": "MPS_WASM",
+    "stars": 1,
+    "url": "https://github.com/polymorfiq/MPS_WASM",
+    "found_at": "2026-04-10T17:21:29.364151"
+  },
+  {
+    "owner": "prof-eduardo-galego",
+    "name": "mps-calculator",
+    "stars": 0,
+    "url": "https://github.com/prof-eduardo-galego/mps-calculator",
+    "found_at": "2026-04-10T17:21:30.148946"
+  },
+  {
+    "owner": "szabta89",
+    "name": "MPS-Benchmarks",
+    "stars": 0,
+    "url": "https://github.com/szabta89/MPS-Benchmarks",
+    "found_at": "2026-04-10T17:21:31.475058"
+  },
+  {
+    "owner": "nvmd",
+    "name": "mps-dot-lang",
+    "stars": 0,
+    "url": "https://github.com/nvmd/mps-dot-lang",
+    "found_at": "2026-04-10T17:21:31.957629"
+  },
+  {
+    "owner": "cjdaly",
+    "name": "Zark-MPS",
+    "stars": 1,
+    "url": "https://github.com/cjdaly/Zark-MPS",
+    "found_at": "2026-04-10T17:21:32.421292"
+  },
+  {
+    "owner": "nandkunal",
+    "name": "MPS",
+    "stars": 0,
+    "url": "https://github.com/nandkunal/MPS",
+    "found_at": "2026-04-10T17:21:32.815827"
+  },
+  {
+    "owner": "janradeck",
+    "name": "RemoteAdapterGenerator",
+    "stars": 0,
+    "url": "https://github.com/janradeck/RemoteAdapterGenerator",
+    "found_at": "2026-04-10T17:21:33.180730"
+  },
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-xml",
+    "stars": 0,
+    "url": "https://github.com/DSLFoundry/mps-xml",
+    "found_at": "2026-04-10T17:21:33.585449"
+  },
+  {
+    "owner": "iks-gmbh-playground",
+    "name": "jetbrains-mps-samples",
+    "stars": 0,
+    "url": "https://github.com/iks-gmbh-playground/jetbrains-mps-samples",
+    "found_at": "2026-04-10T17:21:33.971712"
+  },
+  {
+    "owner": "DSL-Football",
+    "name": "JetBrains-MPS",
+    "stars": 0,
+    "url": "https://github.com/DSL-Football/JetBrains-MPS",
+    "found_at": "2026-04-10T17:21:34.747601"
+  },
+  {
+    "owner": "cmd-AJ",
+    "name": "Jetbrains-MPS-FIgures",
+    "stars": 0,
+    "url": "https://github.com/cmd-AJ/Jetbrains-MPS-FIgures",
+    "found_at": "2026-04-10T17:21:35.488023"
+  },
+  {
+    "owner": "sunnivalothe",
+    "name": "JetBrains-MPS",
+    "stars": 0,
+    "url": "https://github.com/sunnivalothe/JetBrains-MPS",
+    "found_at": "2026-04-10T17:21:35.858284"
+  },
+  {
+    "owner": "modelix",
+    "name": "devcontainer-features",
+    "stars": 0,
+    "url": "https://github.com/modelix/devcontainer-features",
+    "found_at": "2026-04-10T17:21:36.239628"
+  },
+  {
+    "owner": "vectorize-dsl",
+    "name": "mps",
+    "stars": 1,
+    "url": "https://github.com/vectorize-dsl/mps",
+    "found_at": "2026-04-10T17:21:36.650107"
+  },
+  {
+    "owner": "joshstallnick",
+    "name": "mps-shape-tutorial",
+    "stars": 0,
+    "url": "https://github.com/joshstallnick/mps-shape-tutorial",
+    "found_at": "2026-04-10T17:21:37.127786"
+  },
+  {
+    "owner": "alexanderpann",
+    "name": "mps-checkin",
+    "stars": 0,
+    "url": "https://github.com/alexanderpann/mps-checkin",
+    "found_at": "2026-04-10T17:21:37.514055"
+  },
+  {
+    "owner": "neumantm",
+    "name": "reqdoc",
+    "stars": 0,
+    "url": "https://github.com/neumantm/reqdoc",
+    "found_at": "2026-04-10T17:21:37.948769"
+  },
+  {
+    "owner": "domz-git",
+    "name": "JetBrains-MPS-Shapes",
+    "stars": 0,
+    "url": "https://github.com/domz-git/JetBrains-MPS-Shapes",
+    "found_at": "2026-04-10T17:21:38.650062"
+  },
+  {
+    "owner": "Inejka",
+    "name": "JetBrains-MPS-guide",
+    "stars": 0,
+    "url": "https://github.com/Inejka/JetBrains-MPS-guide",
+    "found_at": "2026-04-10T17:21:39.044865"
+  },
+  {
+    "owner": "largomst",
+    "name": "jetbrains.mps.tutorial.calculator",
+    "stars": 0,
+    "url": "https://github.com/largomst/jetbrains.mps.tutorial.calculator",
+    "found_at": "2026-04-10T17:21:39.418099"
+  },
+  {
+    "owner": "ftomassetti",
+    "name": "json-for-jetbrains-mps",
+    "stars": 0,
+    "url": "https://github.com/ftomassetti/json-for-jetbrains-mps",
+    "found_at": "2026-04-10T17:21:39.776291"
+  },
+  {
+    "owner": "GenserDev",
+    "name": "JetBrainsMPS-Introduction",
+    "stars": 0,
+    "url": "https://github.com/GenserDev/JetBrainsMPS-Introduction",
+    "found_at": "2026-04-10T17:21:40.201730"
+  },
+  {
+    "owner": "dragoi75",
+    "name": "jetbrains-MPS-BasicHTML",
+    "stars": 0,
+    "url": "https://github.com/dragoi75/jetbrains-MPS-BasicHTML",
+    "found_at": "2026-04-10T17:21:40.708318"
+  },
+  {
+    "owner": "lucasvieira123",
+    "name": "studying-MPS-JetBrains",
+    "stars": 0,
+    "url": "https://github.com/lucasvieira123/studying-MPS-JetBrains",
+    "found_at": "2026-04-10T17:21:41.155122"
+  },
+  {
+    "owner": "diederikd",
+    "name": "Nodereview",
+    "stars": 1,
+    "url": "https://github.com/diederikd/Nodereview",
+    "found_at": "2026-04-10T17:21:41.941874"
+  },
+  {
+    "owner": "wangyao2221",
+    "name": "Shapes",
+    "stars": 0,
+    "url": "https://github.com/wangyao2221/Shapes",
+    "found_at": "2026-04-10T17:21:42.455091"
+  },
+  {
+    "owner": "lukeearly",
+    "name": "Isopropyl",
+    "stars": 0,
+    "url": "https://github.com/lukeearly/Isopropyl",
+    "found_at": "2026-04-10T17:21:42.967974"
+  },
+  {
+    "owner": "Delushon",
+    "name": "MPSProject",
+    "stars": 0,
+    "url": "https://github.com/Delushon/MPSProject",
+    "found_at": "2026-04-10T17:21:43.374605"
+  },
+  {
+    "owner": "kanterov",
+    "name": "diglex_dsl",
+    "stars": 1,
+    "url": "https://github.com/kanterov/diglex_dsl",
+    "found_at": "2026-04-10T17:21:43.923211"
+  },
+  {
+    "owner": "Gandalf098",
+    "name": "Scheme_MPS",
+    "stars": 0,
+    "url": "https://github.com/Gandalf098/Scheme_MPS",
+    "found_at": "2026-04-10T17:21:44.708568"
+  },
+  {
+    "owner": "yishakabreham",
+    "name": "salesTransactionMPSProject",
+    "stars": 0,
+    "url": "https://github.com/yishakabreham/salesTransactionMPSProject",
+    "found_at": "2026-04-10T17:21:45.102939"
+  },
+  {
+    "owner": "largomst",
+    "name": "jetbrains.mps.tutorial.swing.component",
+    "stars": 0,
+    "url": "https://github.com/largomst/jetbrains.mps.tutorial.swing.component",
+    "found_at": "2026-04-10T17:21:45.524311"
+  },
+  {
+    "owner": "Sofiamishel2003",
+    "name": "Shapes_DSL_JetBrains_mps",
+    "stars": 0,
+    "url": "https://github.com/Sofiamishel2003/Shapes_DSL_JetBrains_mps",
+    "found_at": "2026-04-10T17:21:45.962159"
+  },
+  {
+    "owner": "janradeck",
+    "name": "LanguageGenerator",
+    "stars": 0,
+    "url": "https://github.com/janradeck/LanguageGenerator",
+    "found_at": "2026-04-10T17:21:47.265616"
+  },
+  {
+    "owner": "attilakillin",
+    "name": "mps-firstorderlogic",
+    "stars": 0,
+    "url": "https://github.com/attilakillin/mps-firstorderlogic",
+    "found_at": "2026-04-10T17:21:47.758095"
+  },
+  {
+    "owner": "neumantm",
+    "name": "mps-markdown",
+    "stars": 1,
+    "url": "https://github.com/neumantm/mps-markdown",
+    "found_at": "2026-04-10T17:21:48.114871"
+  },
+  {
+    "owner": "abhijit5893",
+    "name": "QUBA",
+    "stars": 0,
+    "url": "https://github.com/abhijit5893/QUBA",
+    "found_at": "2026-04-10T17:21:48.633022"
+  },
+  {
+    "owner": "kev007",
+    "name": "GSE",
+    "stars": 0,
+    "url": "https://github.com/kev007/GSE",
+    "found_at": "2026-04-10T17:21:49.111869"
+  },
+  {
+    "owner": "enikao",
+    "name": "mps-interpreter-graalvm-truffle",
+    "stars": 0,
+    "url": "https://github.com/enikao/mps-interpreter-graalvm-truffle",
+    "found_at": "2026-04-10T17:21:49.516955"
+  },
+  {
+    "owner": "stuenofotso",
+    "name": "ArduinoML",
+    "stars": 0,
+    "url": "https://github.com/stuenofotso/ArduinoML",
+    "found_at": "2026-04-10T17:21:49.883025"
+  },
+  {
+    "owner": "habruening",
+    "name": "homepager",
+    "stars": 0,
+    "url": "https://github.com/habruening/homepager",
+    "found_at": "2026-04-10T17:21:50.261550"
+  },
+  {
+    "owner": "BiancaCalderon",
+    "name": "Diseno_DSL_con_JetBrains_MPS",
+    "stars": 0,
+    "url": "https://github.com/BiancaCalderon/Diseno_DSL_con_JetBrains_MPS",
+    "found_at": "2026-04-10T17:21:51.260044"
+  },
+  {
+    "owner": "lemoonchild",
+    "name": "DSL-design-with-MPS-JetBrains",
+    "stars": 0,
+    "url": "https://github.com/lemoonchild/DSL-design-with-MPS-JetBrains",
+    "found_at": "2026-04-10T17:21:51.955342"
+  },
+  {
+    "owner": "iks-gmbh-playground",
+    "name": "jetbrains-mps-coding-club-22-03",
+    "stars": 0,
+    "url": "https://github.com/iks-gmbh-playground/jetbrains-mps-coding-club-22-03",
+    "found_at": "2026-04-10T17:21:52.354403"
+  },
+  {
+    "owner": "domz-git",
+    "name": "first-language-in-JetBrains-MPS",
+    "stars": 0,
+    "url": "https://github.com/domz-git/first-language-in-JetBrains-MPS",
+    "found_at": "2026-04-10T17:21:52.727950"
+  },
+  {
+    "owner": "specificlanguages",
+    "name": "batikexample",
+    "stars": 0,
+    "url": "https://github.com/specificlanguages/batikexample",
+    "found_at": "2026-04-10T17:21:53.203488"
+  },
+  {
+    "owner": "makoto-developer",
+    "name": "mps",
+    "stars": 0,
+    "url": "https://github.com/makoto-developer/mps",
+    "found_at": "2026-04-10T17:21:54.442403"
+  },
+  {
+    "owner": "nkoester",
+    "name": "mps-dependencyDiagram",
+    "stars": 0,
+    "url": "https://github.com/nkoester/mps-dependencyDiagram",
+    "found_at": "2026-04-10T17:21:55.260155"
+  },
+  {
+    "owner": "MiltonPolanco",
+    "name": "Diseno-de-DSL-con-JetBrains-MPS",
+    "stars": 0,
+    "url": "https://github.com/MiltonPolanco/Diseno-de-DSL-con-JetBrains-MPS",
+    "found_at": "2026-04-10T17:21:55.617798"
+  },
+  {
+    "owner": "slisson",
+    "name": "mpslog",
+    "stars": 1,
+    "url": "https://github.com/slisson/mpslog",
+    "found_at": "2026-04-10T17:21:56.175186"
+  },
+  {
+    "owner": "diederikd",
+    "name": "MPSdoc",
+    "stars": 0,
+    "url": "https://github.com/diederikd/MPSdoc",
+    "found_at": "2026-04-10T17:21:56.585068"
+  },
+  {
+    "owner": "diederikd",
+    "name": "ProjectBrowserPlugin",
+    "stars": 0,
+    "url": "https://github.com/diederikd/ProjectBrowserPlugin",
+    "found_at": "2026-04-10T17:21:57.143389"
+  },
+  {
+    "owner": "daWieser",
+    "name": "MPS-ER-Model",
+    "stars": 0,
+    "url": "https://github.com/daWieser/MPS-ER-Model",
+    "found_at": "2026-04-10T17:21:57.999630"
+  },
+  {
+    "owner": "aleksandar95si",
+    "name": "UCDSL",
+    "stars": 1,
+    "url": "https://github.com/aleksandar95si/UCDSL",
+    "found_at": "2026-04-10T17:21:58.540334"
+  },
+  {
+    "owner": "manuelesimi",
+    "name": "MPS-23772",
+    "stars": 0,
+    "url": "https://github.com/manuelesimi/MPS-23772",
+    "found_at": "2026-04-10T17:21:59.353854"
+  },
+  {
+    "owner": "MSchalken",
+    "name": "MSL",
+    "stars": 0,
+    "url": "https://github.com/MSchalken/MSL",
+    "found_at": "2026-04-10T17:21:59.758427"
+  },
+  {
+    "owner": "UST-DeMAF",
+    "name": "mps-transformation-ansible",
+    "stars": 0,
+    "url": "https://github.com/UST-DeMAF/mps-transformation-ansible",
+    "found_at": "2026-04-10T17:22:00.169055"
+  },
+  {
+    "owner": "porscheofficial",
+    "name": "MetaBNF",
+    "stars": 3,
+    "url": "https://github.com/porscheofficial/MetaBNF",
+    "found_at": "2026-04-10T17:22:00.784349"
+  },
+  {
+    "owner": "UST-DeMAF",
+    "name": "mps-transformation-terraform",
+    "stars": 1,
+    "url": "https://github.com/UST-DeMAF/mps-transformation-terraform",
+    "found_at": "2026-04-10T17:22:01.170638"
+  },
+  {
+    "owner": "Inlustra",
+    "name": "BotScript",
+    "stars": 0,
+    "url": "https://github.com/Inlustra/BotScript",
+    "found_at": "2026-04-10T17:22:01.605827"
+  },
+  {
+    "owner": "darmsteter",
+    "name": "simpleHTML",
+    "stars": 0,
+    "url": "https://github.com/darmsteter/simpleHTML",
+    "found_at": "2026-04-10T17:22:02.094022"
+  },
+  {
+    "owner": "Gappylul",
+    "name": "Shapes",
+    "stars": 0,
+    "url": "https://github.com/Gappylul/Shapes",
+    "found_at": "2026-04-10T17:22:02.525997"
+  },
+  {
+    "owner": "ElLukman",
+    "name": "MPS-Catatan-Absensi-",
+    "stars": 0,
+    "url": "https://github.com/ElLukman/MPS-Catatan-Absensi-",
+    "found_at": "2026-04-10T17:22:02.889183"
+  },
+  {
+    "owner": "arimer",
+    "name": "MPS-Enrichments",
+    "stars": 0,
+    "url": "https://github.com/arimer/MPS-Enrichments",
+    "found_at": "2026-04-10T17:22:03.341544"
+  },
+  {
+    "owner": "modelix",
+    "name": "modelix.mps-plugins",
+    "stars": 0,
+    "url": "https://github.com/modelix/modelix.mps-plugins",
+    "found_at": "2026-04-10T17:22:03.823622"
+  },
+  {
+    "owner": "wirthma",
+    "name": "StubsGenerator",
+    "stars": 2,
+    "url": "https://github.com/wirthma/StubsGenerator",
+    "found_at": "2026-04-10T17:22:04.189449"
+  },
+  {
+    "owner": "fvollmer",
+    "name": "MPSMatrixTest",
+    "stars": 0,
+    "url": "https://github.com/fvollmer/MPSMatrixTest",
+    "found_at": "2026-04-10T17:22:04.679838"
+  },
+  {
+    "owner": "blended-modeling",
+    "name": "parsafix",
+    "stars": 0,
+    "url": "https://github.com/blended-modeling/parsafix",
+    "found_at": "2026-04-10T17:22:05.594414"
+  },
+  {
+    "owner": "polymorfiq",
+    "name": "MPS_Midi",
+    "stars": 1,
+    "url": "https://github.com/polymorfiq/MPS_Midi",
+    "found_at": "2026-04-10T17:22:06.537591"
+  },
+  {
+    "owner": "bor-sh-playground",
+    "name": "mps-gherkin",
+    "stars": 1,
+    "url": "https://github.com/bor-sh-playground/mps-gherkin",
+    "found_at": "2026-04-10T17:22:06.992035"
+  },
+  {
+    "owner": "DiegoLinares11",
+    "name": "-M1-Laboratorio---Diseno-de-DSL-con-JetBrains-MPS",
+    "stars": 0,
+    "url": "https://github.com/DiegoLinares11/-M1-Laboratorio---Diseno-de-DSL-con-JetBrains-MPS",
+    "found_at": "2026-04-10T17:22:07.392030"
+  },
+  {
+    "owner": "agarciadom",
+    "name": "mps-m2m-mdenet-training",
+    "stars": 0,
+    "url": "https://github.com/agarciadom/mps-m2m-mdenet-training",
+    "found_at": "2026-04-10T17:22:07.853055"
+  },
+  {
+    "owner": "wirthma",
+    "name": "CsStubsGenerator",
+    "stars": 0,
+    "url": "https://github.com/wirthma/CsStubsGenerator",
+    "found_at": "2026-04-10T17:22:08.360799"
+  },
+  {
+    "owner": "neumantm",
+    "name": "alfi",
+    "stars": 1,
+    "url": "https://github.com/neumantm/alfi",
+    "found_at": "2026-04-10T17:22:09.281370"
+  },
+  {
+    "owner": "CasdeGroot",
+    "name": "MyFirstDsl",
+    "stars": 0,
+    "url": "https://github.com/CasdeGroot/MyFirstDsl",
+    "found_at": "2026-04-10T17:22:09.672154"
+  },
+  {
+    "owner": "polymorfiq",
+    "name": "MPS_Swift",
+    "stars": 0,
+    "url": "https://github.com/polymorfiq/MPS_Swift",
+    "found_at": "2026-04-10T17:22:10.134914"
+  },
+  {
+    "owner": "iconmaster5326",
+    "name": "Importers",
+    "stars": 0,
+    "url": "https://github.com/iconmaster5326/Importers",
+    "found_at": "2026-04-10T17:22:10.524626"
+  },
+  {
+    "owner": "nkoester",
+    "name": "mps-env-gen-gradle-plugin",
+    "stars": 0,
+    "url": "https://github.com/nkoester/mps-env-gen-gradle-plugin",
+    "found_at": "2026-04-10T17:22:11.024490"
+  },
+  {
+    "owner": "polymorfiq",
+    "name": "MPS_MusicTheory",
+    "stars": 1,
+    "url": "https://github.com/polymorfiq/MPS_MusicTheory",
+    "found_at": "2026-04-10T17:22:11.447472"
+  },
+  {
+    "owner": "peterquiel",
+    "name": "mps-sandbox",
+    "stars": 0,
+    "url": "https://github.com/peterquiel/mps-sandbox",
+    "found_at": "2026-04-10T17:22:11.977694"
+  },
+  {
+    "owner": "sxomile",
+    "name": "ClassDiagramDSL",
+    "stars": 0,
+    "url": "https://github.com/sxomile/ClassDiagramDSL",
+    "found_at": "2026-04-10T17:22:12.624249"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "language_verification",
+    "stars": 1,
+    "url": "https://github.com/mbeddr/language_verification",
+    "found_at": "2026-04-10T17:22:13.173035"
+  },
+  {
+    "owner": "fride",
+    "name": "mpsroy",
+    "stars": 1,
+    "url": "https://github.com/fride/mpsroy",
+    "found_at": "2026-04-10T17:22:13.937823"
+  },
+  {
+    "owner": "HermanPeeren",
+    "name": "MPS-transformation-substitution-examples",
+    "stars": 0,
+    "url": "https://github.com/HermanPeeren/MPS-transformation-substitution-examples",
+    "found_at": "2026-04-10T17:22:14.495441"
+  },
+  {
+    "owner": "DSLFoundry",
+    "name": "mps-lwc25",
+    "stars": 0,
+    "url": "https://github.com/DSLFoundry/mps-lwc25",
+    "found_at": "2026-04-10T17:22:14.869473"
+  },
+  {
+    "owner": "JoostvanPinxten",
+    "name": "SmartReferenceExamples",
+    "stars": 0,
+    "url": "https://github.com/JoostvanPinxten/SmartReferenceExamples",
+    "found_at": "2026-04-10T17:22:15.323657"
+  },
+  {
+    "owner": "wirthma",
+    "name": "CsStdLibrary",
+    "stars": 0,
+    "url": "https://github.com/wirthma/CsStdLibrary",
+    "found_at": "2026-04-10T17:22:15.733864"
+  },
+  {
+    "owner": "DRobinson4105",
+    "name": "mps-dsl-sample",
+    "stars": 0,
+    "url": "https://github.com/DRobinson4105/mps-dsl-sample",
+    "found_at": "2026-04-10T17:22:16.790082"
+  },
+  {
+    "owner": "Strumenta",
+    "name": "jar_mps",
+    "stars": 1,
+    "url": "https://github.com/Strumenta/jar_mps",
+    "found_at": "2026-04-10T17:22:17.269261"
+  },
+  {
+    "owner": "iconmaster5326",
+    "name": "DataFormats",
+    "stars": 1,
+    "url": "https://github.com/iconmaster5326/DataFormats",
+    "found_at": "2026-04-10T17:22:17.679058"
+  },
+  {
+    "owner": "tillschallau",
+    "name": "MPS-Project-Template",
+    "stars": 1,
+    "url": "https://github.com/tillschallau/MPS-Project-Template",
+    "found_at": "2026-04-10T17:22:18.052192"
+  },
+  {
+    "owner": "f1re-nl",
+    "name": "pre-commit-handler-example",
+    "stars": 0,
+    "url": "https://github.com/f1re-nl/pre-commit-handler-example",
+    "found_at": "2026-04-10T17:22:18.504792"
+  },
+  {
+    "owner": "janradeck",
+    "name": "WebApplication",
+    "stars": 0,
+    "url": "https://github.com/janradeck/WebApplication",
+    "found_at": "2026-04-10T17:22:19.008703"
+  },
+  {
+    "owner": "sjhalasz",
+    "name": "Business_Rules_0_6",
+    "stars": 0,
+    "url": "https://github.com/sjhalasz/Business_Rules_0_6",
+    "found_at": "2026-04-10T17:22:19.406999"
+  },
+  {
+    "owner": "github-linguist",
+    "name": "linguist",
+    "stars": 13400,
+    "url": "https://github.com/github-linguist/linguist",
+    "found_at": "2026-04-10T17:23:34.655488"
+  },
+  {
+    "owner": "AlDanial",
+    "name": "cloc",
+    "stars": 22864,
+    "url": "https://github.com/AlDanial/cloc",
+    "found_at": "2026-04-10T17:23:58.205776"
+  },
+  {
+    "owner": "qradimir",
+    "name": "ordered-routines-lang",
+    "stars": 0,
+    "url": "https://github.com/qradimir/ordered-routines-lang",
+    "found_at": "2026-04-10T17:37:41.183607"
+  },
+  {
+    "owner": "digital-ember",
+    "name": "digitalember.extensions",
+    "stars": 1,
+    "url": "https://github.com/digital-ember/digitalember.extensions",
+    "found_at": "2026-04-10T17:37:41.636111"
+  },
+  {
+    "owner": "coolya",
+    "name": "ws.logv.baselanguage",
+    "stars": 0,
+    "url": "https://github.com/coolya/ws.logv.baselanguage",
+    "found_at": "2026-04-10T17:37:42.141589"
+  },
+  {
+    "owner": "neumantm",
+    "name": "mps-markdown-extensions",
+    "stars": 0,
+    "url": "https://github.com/neumantm/mps-markdown-extensions",
+    "found_at": "2026-04-10T17:37:42.654323"
+  },
+  {
+    "owner": "joswarmer",
+    "name": "BaseTemplates",
+    "stars": 1,
+    "url": "https://github.com/joswarmer/BaseTemplates",
+    "found_at": "2026-04-10T17:37:43.161995"
+  },
+  {
+    "owner": "mar9000",
+    "name": "mps-signal-flow-graphs",
+    "stars": 0,
+    "url": "https://github.com/mar9000/mps-signal-flow-graphs",
+    "found_at": "2026-04-10T17:37:43.777635"
+  },
+  {
+    "owner": "enikao",
+    "name": "mps-extensionmethods-issue",
+    "stars": 0,
+    "url": "https://github.com/enikao/mps-extensionmethods-issue",
+    "found_at": "2026-04-10T17:37:44.599341"
+  },
+  {
+    "owner": "diederikd",
+    "name": "ProjectTextLayout",
+    "stars": 0,
+    "url": "https://github.com/diederikd/ProjectTextLayout",
+    "found_at": "2026-04-10T17:37:44.980162"
+  },
+  {
+    "owner": "zeckson",
+    "name": "range-iterator-demo",
+    "stars": 0,
+    "url": "https://github.com/zeckson/range-iterator-demo",
+    "found_at": "2026-04-10T17:37:45.347437"
+  },
+  {
+    "owner": "jensnerche",
+    "name": "mps-gol",
+    "stars": 0,
+    "url": "https://github.com/jensnerche/mps-gol",
+    "found_at": "2026-04-10T17:37:45.710148"
+  }
+]

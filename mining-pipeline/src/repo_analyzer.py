@@ -27,41 +27,30 @@ class RepositoryInfo:
         self.name = name
         self.owner = owner
         self.description = description
-        self.stars = stars
+        self.stars = (
+            stars or 0
+        )  # trata None na construção, sem precisar de getattr depois
         self.url = url
-        self.contributors_count = contributors_count
-        self.commits_count = commits_count
+        self.contributors_count = contributors_count or 0
+        self.commits_count = commits_count or 0
         self.created_at = created_at
         self.last_commit_date = last_commit_date
         self.tier = tier
+        self._score = 0  # score calculado junto com tier, visível no objeto
 
-    def is_valid(self):
-        if not self.last_commit_date or self.last_commit_date in (
-            "Error",
-            "No commits",
-        ):
-            return False
-
-        try:
-            today = datetime.now()
-            last_commit_date = datetime.strptime(
-                self.last_commit_date, "%Y-%m-%dT%H:%M:%SZ"
-            )
-        except ValueError:
-            return False
-
-        days_last_commit = (today - last_commit_date).days
+    def compute_score(self, days_last_commit: int) -> int:
+        """Calcula e retorna o score de relevância do repositório.
+        Separado de is_valid() para não ter efeito colateral escondido.
+        """
         score = 0
 
-        stars = getattr(self, "stars", 0)
-
-        if stars >= 50:
+        if self.stars >= 50:
             score += 10
-        elif stars >= 20:
+        elif self.stars >= 20:
             score += 7
-        elif stars >= 5:
+        elif self.stars >= 5:
             score += 4
-        elif stars >= 1:
+        elif self.stars >= 1:
             score += 2
 
         if days_last_commit <= 180:
@@ -91,19 +80,42 @@ class RepositoryInfo:
         elif self.commits_count >= 5:
             score += 3
 
-        self._latest_score = score
+        return score
 
-        if self._latest_score >= 30:
-            self.tier = "A"
-        elif self._latest_score >= 20:
-            self.tier = "B"
-        elif self._latest_score >= 10:
-            self.tier = "C"
-        else:
-            self.tier = None
+    def assign_tier(self, score: int) -> str | None:
+        """Atribui tier baseado no score. Retorna None se abaixo do mínimo."""
+        if score >= 30:
+            return "A"
+        elif score >= 20:
+            return "B"
+        elif score >= 10:
+            return "C"
+        return None
+
+    def is_valid(self) -> bool:
+        """Valida o repositório, calcula score e atribui tier.
+        Retorna False se dados insuficientes ou score abaixo do mínimo.
+        """
+        if not self.last_commit_date or self.last_commit_date in (
+            "Error",
+            "No commits",
+        ):
             return False
 
-        return True
+        try:
+            today = datetime.now()
+            last_commit_dt = datetime.strptime(
+                self.last_commit_date, "%Y-%m-%dT%H:%M:%SZ"
+            )
+        except ValueError:
+            return False
+
+        days_last_commit = (today - last_commit_dt).days
+
+        self._score = self.compute_score(days_last_commit)
+        self.tier = self.assign_tier(self._score)
+
+        return self.tier is not None
 
     def obj_to_dict(self):
         return {
@@ -115,8 +127,9 @@ class RepositoryInfo:
             "last_commit_date": self.last_commit_date,
             "description": self.description,
             "url": self.url,
-            "stars": getattr(self, "stars", 0),
+            "stars": self.stars,
             "tier": self.tier,
+            "score": self._score,
         }
 
 
@@ -157,7 +170,8 @@ def generate_output_filename(prefix="analyzed_repos"):
     return f"{prefix}_{timestamp}.json"
 
 
-def load_results_grouped(repositories, filename):
+def save_grouped_results(repositories, filename):
+    # renomeado de load_results_grouped — a função *salva*, não carrega
     grouped = {"A": [], "B": [], "C": []}
 
     for repo in repositories:
@@ -171,7 +185,13 @@ def load_results_grouped(repositories, filename):
 
 
 def update_latest(filename):
-    with open("../dataset/latest.json", "w") as f:
+    from pathlib import Path
+
+    # path relativo ao arquivo, não ao diretório de execução
+    latest_path = Path(__file__).parent / "../dataset/latest.json"
+    latest_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(latest_path, "w") as f:
         json.dump({"latest": filename}, f)
 
 
@@ -184,7 +204,7 @@ def run_pipeline(input_file, output_file):
     repos = transform_repositories(data)
     logger.info(f"Transformed: {len(repos)} valid repositories")
 
-    load_results_grouped(repos, output_file)
+    save_grouped_results(repos, output_file)  # nome corrigido
 
     logger.info("Pipeline finished")
 
