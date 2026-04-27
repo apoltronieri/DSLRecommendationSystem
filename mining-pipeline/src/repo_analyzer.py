@@ -1,13 +1,11 @@
 import json
 from datetime import datetime
-from dotenv import load_dotenv
+from pathlib import Path
 from logger import setup_logger
 import logging
 
 setup_logger()
 logger = logging.getLogger(__name__)
-
-load_dotenv()
 
 
 class RepositoryInfo:
@@ -27,21 +25,16 @@ class RepositoryInfo:
         self.name = name
         self.owner = owner
         self.description = description
-        self.stars = (
-            stars or 0
-        )  # trata None na construção, sem precisar de getattr depois
+        self.stars = stars or 0
         self.url = url
         self.contributors_count = contributors_count or 0
         self.commits_count = commits_count or 0
         self.created_at = created_at
         self.last_commit_date = last_commit_date
         self.tier = tier
-        self._score = 0  # score calculado junto com tier, visível no objeto
+        self._score = 0
 
     def compute_score(self, days_last_commit: int) -> int:
-        """Calcula e retorna o score de relevância do repositório.
-        Separado de is_valid() para não ter efeito colateral escondido.
-        """
         score = 0
 
         if self.stars >= 50:
@@ -83,7 +76,6 @@ class RepositoryInfo:
         return score
 
     def assign_tier(self, score: int) -> str | None:
-        """Atribui tier baseado no score. Retorna None se abaixo do mínimo."""
         if score >= 30:
             return "A"
         elif score >= 20:
@@ -93,9 +85,7 @@ class RepositoryInfo:
         return None
 
     def is_valid(self) -> bool:
-        """Valida o repositório, calcula score e atribui tier.
-        Retorna False se dados insuficientes ou score abaixo do mínimo.
-        """
+        # reject repositories with missing or invalid commit data
         if not self.last_commit_date or self.last_commit_date in (
             "Error",
             "No commits",
@@ -103,14 +93,13 @@ class RepositoryInfo:
             return False
 
         try:
-            today = datetime.now()
             last_commit_dt = datetime.strptime(
                 self.last_commit_date, "%Y-%m-%dT%H:%M:%SZ"
             )
         except ValueError:
             return False
 
-        days_last_commit = (today - last_commit_dt).days
+        days_last_commit = (datetime.now() - last_commit_dt).days
 
         self._score = self.compute_score(days_last_commit)
         self.tier = self.assign_tier(self._score)
@@ -146,9 +135,10 @@ def transform_repositories(data):
             repo = RepositoryInfo(
                 name=item["name"],
                 owner=item["owner"],
+                # field names match what github_scraper.py saves
                 contributors_count=item.get("contributors", 0),
                 commits_count=item.get("total_commits", 0),
-                created_at=item.get("first_commit"),
+                created_at=item.get("created_at"),
                 description=item.get("description"),
                 url=item.get("url"),
                 last_commit_date=item.get("last_commit"),
@@ -160,7 +150,7 @@ def transform_repositories(data):
                 repositories.append(repo)
 
         except Exception as e:
-            logger.error(f"Error processing repo: {repr(e)}")
+            logger.error(f"Error processing repo {item.get('name')}: {repr(e)}")
 
     return repositories
 
@@ -171,7 +161,6 @@ def generate_output_filename(prefix="analyzed_repos"):
 
 
 def save_grouped_results(repositories, filename):
-    # renomeado de load_results_grouped — a função *salva*, não carrega
     grouped = {"A": [], "B": [], "C": []}
 
     for repo in repositories:
@@ -181,13 +170,10 @@ def save_grouped_results(repositories, filename):
     with open(filename, "w") as f:
         json.dump(grouped, f, indent=4)
 
-    logger.info(f"Grouped results saved to {filename}")
+    logger.info(f"Saved {len(repositories)} repositories to {filename}")
 
 
 def update_latest(filename):
-    from pathlib import Path
-
-    # path relativo ao arquivo, não ao diretório de execução
     latest_path = Path(__file__).parent / "../dataset/latest.json"
     latest_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -202,10 +188,9 @@ def run_pipeline(input_file, output_file):
     logger.info(f"Extracted {len(data)} items")
 
     repos = transform_repositories(data)
-    logger.info(f"Transformed: {len(repos)} valid repositories")
+    logger.info(f"Valid repositories after scoring: {len(repos)}")
 
-    save_grouped_results(repos, output_file)  # nome corrigido
-
+    save_grouped_results(repos, output_file)
     logger.info("Pipeline finished")
 
 

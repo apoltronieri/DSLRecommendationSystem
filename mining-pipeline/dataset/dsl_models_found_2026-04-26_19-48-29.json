@@ -1868,5 +1868,38 @@
     "last_commit": "2019-11-20T12:42:29Z",
     "total_commits": 2,
     "contributors": 2
+  },
+  {
+    "owner": "diederikd",
+    "name": "ProjectTextLayout",
+    "stars": 0,
+    "url": "https://github.com/diederikd/ProjectTextLayout",
+    "found_at": "2026-04-26T19:48:14.701062",
+    "description": "MPS extension with a cellayout_indent without indent",
+    "last_commit": "2021-12-29T09:19:56Z",
+    "total_commits": 8,
+    "contributors": 1
+  },
+  {
+    "owner": "zeckson",
+    "name": "range-iterator-demo",
+    "stars": 0,
+    "url": "https://github.com/zeckson/range-iterator-demo",
+    "found_at": "2026-04-26T19:48:16.998185",
+    "description": "This is DEMO java language extension written in MPS",
+    "last_commit": "2013-04-12T11:18:11Z",
+    "total_commits": 3,
+    "contributors": 2
+  },
+  {
+    "owner": "jensnerche",
+    "name": "mps-gol",
+    "stars": 0,
+    "url": "https://github.com/jensnerche/mps-gol",
+    "found_at": "2026-04-26T19:48:19.447863",
+    "description": "A Game of Life implemented in MPS with baseLanguage + extensions",
+    "last_commit": "2020-06-19T13:02:26Z",
+    "total_commits": 38,
+    "contributors": 2
   }
 ]

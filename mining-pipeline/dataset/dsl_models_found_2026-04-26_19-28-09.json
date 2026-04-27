@@ -1,0 +1,57 @@
+[
+  {
+    "owner": "JetBrains",
+    "name": "mps-kotlin-typesystem",
+    "stars": 7,
+    "url": "https://github.com/JetBrains/mps-kotlin-typesystem",
+    "found_at": "2026-04-26T19:12:38.916833",
+    "description": null,
+    "last_commit": "2026-04-24T13:35:46Z",
+    "total_commits": 218,
+    "contributors": 3
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mps-qa",
+    "stars": 9,
+    "url": "https://github.com/mbeddr/mps-qa",
+    "found_at": "2026-04-26T19:13:01.105292",
+    "description": "Quality Assurance Tooling for Jetbrains' MPS",
+    "last_commit": "2026-02-08T09:24:06Z",
+    "total_commits": 1026,
+    "contributors": 31
+  },
+  {
+    "owner": "modelix",
+    "name": "modelix.mps-plugins",
+    "stars": 0,
+    "url": "https://github.com/modelix/modelix.mps-plugins",
+    "found_at": "2026-04-26T19:13:20.155311",
+    "description": "Plugin for JetBrains MPS that integrates all relevant Modelix components",
+    "last_commit": "2026-02-04T16:03:15Z",
+    "total_commits": 300,
+    "contributors": 6
+  },
+  {
+    "owner": "neumantm",
+    "name": "alfi",
+    "stars": 1,
+    "url": "https://github.com/neumantm/alfi",
+    "found_at": "2026-04-26T19:13:23.897425",
+    "description": "Action Language for foundational UML as an Interdiate Language (in Jetbrains MPS)",
+    "last_commit": "2024-09-04T17:17:27Z",
+    "total_commits": 39,
+    "contributors": 2
+  },
+  {
+    "owner": "AlDanial",
+    "name": "cloc",
+    "stars": 22935,
+    "url": "https://github.com/AlDanial/cloc",
+    "found_at": "2026-04-26T19:14:58.768265",
+    "description": "cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.",
+    "last_commit": "2026-04-24T02:11:09Z",
+    "total_commits": 1303,
+    "contributors": 142
+  }
+]

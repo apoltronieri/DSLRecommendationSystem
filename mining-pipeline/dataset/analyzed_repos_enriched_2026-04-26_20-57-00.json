@@ -1,0 +1,1202 @@
+[
+    {
+        "name": "linguist",
+        "owner": "github-linguist",
+        "contributors_count": 409,
+        "commits_count": 6892,
+        "created_at": null,
+        "last_commit_date": "2026-03-18T15:05:26Z",
+        "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+        "url": "https://github.com/github-linguist/linguist",
+        "stars": 13382,
+        "tier": "A",
+        "score": 50,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MPS",
+        "owner": "JetBrains",
+        "contributors_count": 48,
+        "commits_count": 96823,
+        "created_at": null,
+        "last_commit_date": "2026-03-20T17:07:06Z",
+        "description": "JetBrains Meta programming System",
+        "url": "https://github.com/JetBrains/MPS",
+        "stars": 1646,
+        "tier": "A",
+        "score": 50,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "voicemenu",
+        "owner": "vaclav",
+        "contributors_count": 8,
+        "commits_count": 725,
+        "created_at": null,
+        "last_commit_date": "2025-11-11T17:43:21Z",
+        "description": "A voice menu language and simulator using JetBrains MPS",
+        "url": "https://github.com/vaclav/voicemenu",
+        "stars": 35,
+        "tier": "A",
+        "score": 47,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-coderules",
+        "owner": "JetBrains",
+        "contributors_count": 6,
+        "commits_count": 3604,
+        "created_at": null,
+        "last_commit_date": "2024-10-04T11:02:04Z",
+        "description": "Type checking and logical inference for JetBrains MPS",
+        "url": "https://github.com/JetBrains/mps-coderules",
+        "stars": 32,
+        "tier": "A",
+        "score": 38,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "ingrid",
+        "owner": "premun",
+        "contributors_count": 5,
+        "commits_count": 174,
+        "created_at": null,
+        "last_commit_date": "2019-08-15T19:12:08Z",
+        "description": "Ingrid is a JetBrains MPS plugin allowing the import of ANTLRv4 grammars and creation of an MPS language automatically out of the grammar",
+        "url": "https://github.com/premun/ingrid",
+        "stars": 24,
+        "tier": "A",
+        "score": 32,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "fbme",
+        "owner": "JetBrains",
+        "contributors_count": 6,
+        "commits_count": 802,
+        "created_at": null,
+        "last_commit_date": "2024-12-20T05:11:35Z",
+        "description": "IDE for IEC 61499 built on top of JetBrains MPS",
+        "url": "https://github.com/JetBrains/fbme",
+        "stars": 23,
+        "tier": "A",
+        "score": 38,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-plaintextgen",
+        "owner": "DSLFoundry",
+        "contributors_count": 6,
+        "commits_count": 135,
+        "created_at": null,
+        "last_commit_date": "2019-04-07T17:23:32Z",
+        "description": "Alternative Textgen for JetBrains MPS using the standard model to model generation mechanisms",
+        "url": "https://github.com/DSLFoundry/mps-plaintextgen",
+        "stars": 21,
+        "tier": "A",
+        "score": 32,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Durchblick",
+        "owner": "coolya",
+        "contributors_count": 3,
+        "commits_count": 126,
+        "created_at": null,
+        "last_commit_date": "2024-05-24T20:10:02Z",
+        "description": "Durchblick is a plugin for JetBrains MPS that provides an alternate editor for generator templates.",
+        "url": "https://github.com/coolya/Durchblick",
+        "stars": 9,
+        "tier": "A",
+        "score": 32,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-qa",
+        "owner": "mbeddr",
+        "contributors_count": 23,
+        "commits_count": 1026,
+        "created_at": null,
+        "last_commit_date": "2026-02-08T09:24:06Z",
+        "description": "Quality Assurance Tooling for Jetbrains' MPS",
+        "url": "https://github.com/mbeddr/mps-qa",
+        "stars": 9,
+        "tier": "A",
+        "score": 44,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-kotlin-typesystem",
+        "owner": "JetBrains",
+        "contributors_count": 3,
+        "commits_count": 204,
+        "created_at": null,
+        "last_commit_date": "2025-05-09T09:49:21Z",
+        "description": "No description",
+        "url": "https://github.com/JetBrains/mps-kotlin-typesystem",
+        "stars": 7,
+        "tier": "A",
+        "score": 36,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-javafx",
+        "owner": "DSLFoundry",
+        "contributors_count": 3,
+        "commits_count": 47,
+        "created_at": null,
+        "last_commit_date": "2025-12-15T12:20:46Z",
+        "description": "Adding back the removed JavaFX libraries to JetBrains MPS",
+        "url": "https://github.com/DSLFoundry/mps-javafx",
+        "stars": 1,
+        "tier": "A",
+        "score": 30,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "GRAPE",
+        "owner": "jduchateau",
+        "contributors_count": 1,
+        "commits_count": 165,
+        "created_at": null,
+        "last_commit_date": "2026-02-05T17:00:26Z",
+        "description": "GRAPE: Guiding RML Authoring with an MPS based Projectional Editor.",
+        "url": "https://github.com/jduchateau/GRAPE",
+        "stars": 0,
+        "tier": "A",
+        "score": 32,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-transformation-kubernetes",
+        "owner": "UST-DeMAF",
+        "contributors_count": 5,
+        "commits_count": 99,
+        "created_at": null,
+        "last_commit_date": "2025-07-29T09:53:26Z",
+        "description": "JetBrains MPS project for transforming Kubernetes deployment models to EDMM",
+        "url": "https://github.com/UST-DeMAF/mps-transformation-kubernetes",
+        "stars": 0,
+        "tier": "A",
+        "score": 30,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "modelix.mps-plugins",
+        "owner": "modelix",
+        "contributors_count": 5,
+        "commits_count": 300,
+        "created_at": null,
+        "last_commit_date": "2026-02-04T16:03:15Z",
+        "description": "Plugin for JetBrains MPS that integrates all relevant Modelix components",
+        "url": "https://github.com/modelix/modelix.mps-plugins",
+        "stars": 0,
+        "tier": "A",
+        "score": 40,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-lwc25",
+        "owner": "DSLFoundry",
+        "contributors_count": 3,
+        "commits_count": 57,
+        "created_at": null,
+        "last_commit_date": "2026-02-12T20:31:48Z",
+        "description": "JetBrains MPS submission for \"The State of the Art in Language Workbenches: 12 years later\" paper",
+        "url": "https://github.com/DSLFoundry/mps-lwc25",
+        "stars": 0,
+        "tier": "A",
+        "score": 32,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MPS",
+        "owner": "gridgentoo",
+        "contributors_count": 48,
+        "commits_count": 94543,
+        "created_at": null,
+        "last_commit_date": "2024-09-13T10:39:53Z",
+        "description": "JetBrains Meta programming System",
+        "url": "https://github.com/gridgentoo/MPS",
+        "stars": 0,
+        "tier": "A",
+        "score": 31,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "ecmascript4mps",
+        "owner": "mar9000",
+        "contributors_count": 3,
+        "commits_count": 55,
+        "created_at": null,
+        "last_commit_date": "2021-06-04T13:53:44Z",
+        "description": "ECMAScript language implementation for JetBrains MPS",
+        "url": "https://github.com/mar9000/ecmascript4mps",
+        "stars": 41,
+        "tier": "B",
+        "score": 24,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "elmMPS",
+        "owner": "digital-ember",
+        "contributors_count": 2,
+        "commits_count": 131,
+        "created_at": null,
+        "last_commit_date": "2022-11-28T17:27:14Z",
+        "description": "A prototypical implementation of the elm language (https://elm-lang.org/) in JetBrains MPS (https://www.jetbrains.com/mps/), sporting a projectional editor.",
+        "url": "https://github.com/digital-ember/elmMPS",
+        "stars": 22,
+        "tier": "B",
+        "score": 26,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "textGenGen",
+        "owner": "Kripner",
+        "contributors_count": 3,
+        "commits_count": 68,
+        "created_at": null,
+        "last_commit_date": "2023-10-30T12:10:38Z",
+        "description": "MPS plugin for generating textGen definitions derived from editor definitions, so that the text generated by textGen is the same as the one rendered on the screen by the editor",
+        "url": "https://github.com/Kripner/textGenGen",
+        "stars": 9,
+        "tier": "B",
+        "score": 24,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-tables",
+        "owner": "slisson",
+        "contributors_count": 5,
+        "commits_count": 298,
+        "created_at": null,
+        "last_commit_date": "2016-04-27T08:56:34Z",
+        "description": "Table Editor Component for JetBrains MPS",
+        "url": "https://github.com/slisson/mps-tables",
+        "stars": 7,
+        "tier": "B",
+        "score": 29,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "SpecEdit",
+        "owner": "RiwanC",
+        "contributors_count": 2,
+        "commits_count": 115,
+        "created_at": null,
+        "last_commit_date": "2020-06-12T07:50:25Z",
+        "description": "A projectional editor for the specification language TLA+ created with JetBrains MPS.",
+        "url": "https://github.com/RiwanC/SpecEdit",
+        "stars": 7,
+        "tier": "B",
+        "score": 23,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-core",
+        "owner": "inspirer",
+        "contributors_count": 4,
+        "commits_count": 183,
+        "created_at": null,
+        "last_commit_date": "2013-10-08T11:13:15Z",
+        "description": "Prototypes of the core languages for JetBrains MPS.",
+        "url": "https://github.com/inspirer/mps-core",
+        "stars": 6,
+        "tier": "B",
+        "score": 26,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "mps-multiline",
+        "owner": "slisson",
+        "contributors_count": 4,
+        "commits_count": 111,
+        "created_at": null,
+        "last_commit_date": "2016-04-27T09:10:37Z",
+        "description": "Editor Component for MPS that supports editing of multiline string properties",
+        "url": "https://github.com/slisson/mps-multiline",
+        "stars": 5,
+        "tier": "B",
+        "score": 26,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-dot",
+        "owner": "nkoester",
+        "contributors_count": 1,
+        "commits_count": 67,
+        "created_at": null,
+        "last_commit_date": "2024-11-19T11:31:46Z",
+        "description": "The Graphviz Dot language as a Jetbrains MPS language",
+        "url": "https://github.com/nkoester/mps-dot",
+        "stars": 5,
+        "tier": "B",
+        "score": 22,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-langvis",
+        "owner": "DSLFoundry",
+        "contributors_count": 5,
+        "commits_count": 95,
+        "created_at": null,
+        "last_commit_date": "2021-03-22T12:08:08Z",
+        "description": "A JetBrains MPS plugin to visualize the structure of a language",
+        "url": "https://github.com/DSLFoundry/mps-langvis",
+        "stars": 4,
+        "tier": "B",
+        "score": 22,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-diagram-editor",
+        "owner": "slisson",
+        "contributors_count": 3,
+        "commits_count": 562,
+        "created_at": null,
+        "last_commit_date": "2016-04-27T08:58:57Z",
+        "description": "No description",
+        "url": "https://github.com/slisson/mps-diagram-editor",
+        "stars": 3,
+        "tier": "B",
+        "score": 24,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-to-json-exporter",
+        "owner": "specificlanguages",
+        "contributors_count": 2,
+        "commits_count": 66,
+        "created_at": null,
+        "last_commit_date": "2025-03-07T16:34:39Z",
+        "description": "Export MPS language structure as JSON Schema and MPS models as JSON documents.",
+        "url": "https://github.com/specificlanguages/mps-to-json-exporter",
+        "stars": 2,
+        "tier": "B",
+        "score": 22,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MPS-Contrib",
+        "owner": "JetBrains",
+        "contributors_count": 17,
+        "commits_count": 5363,
+        "created_at": null,
+        "last_commit_date": "2023-03-06T12:52:56Z",
+        "description": "JetBrains MPS Contribution modules",
+        "url": "https://github.com/JetBrains/MPS-Contrib",
+        "stars": 2,
+        "tier": "B",
+        "score": 27,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MetaBNF",
+        "owner": "porscheofficial",
+        "contributors_count": 2,
+        "commits_count": 31,
+        "created_at": null,
+        "last_commit_date": "2026-03-02T09:07:43Z",
+        "description": "This project provides MPS-based languages for working with Backus-Naur Form (BNF). It enables users to define, edit, and analyze BNF grammars directly in JetBrains MPS, facilitating language design, parsing, and formal grammar processing. ",
+        "url": "https://github.com/porscheofficial/MetaBNF",
+        "stars": 2,
+        "tier": "B",
+        "score": 27,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-transformation-terraform",
+        "owner": "UST-DeMAF",
+        "contributors_count": 5,
+        "commits_count": 43,
+        "created_at": null,
+        "last_commit_date": "2025-07-29T09:53:40Z",
+        "description": "JetBrains MPS project for transforming Terraform deployment models to EDMM",
+        "url": "https://github.com/UST-DeMAF/mps-transformation-terraform",
+        "stars": 1,
+        "tier": "B",
+        "score": 28,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "language_verification",
+        "owner": "mbeddr",
+        "contributors_count": 6,
+        "commits_count": 419,
+        "created_at": null,
+        "last_commit_date": "2020-04-17T11:48:47Z",
+        "description": "A collection of tools and technologies for verifying software languages developed using JetBrains' MPS.",
+        "url": "https://github.com/mbeddr/language_verification",
+        "stars": 1,
+        "tier": "B",
+        "score": 27,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "NextflowWorkbench",
+        "owner": "manuelesimi",
+        "contributors_count": 4,
+        "commits_count": 1510,
+        "created_at": null,
+        "last_commit_date": "2018-11-16T14:40:36Z",
+        "description": "The Nextflow Workbench is a set of languages developed with the Jetbrains MPS Language Workbench that make it easier to write data analysis workflows with Nextflow.",
+        "url": "https://github.com/manuelesimi/NextflowWorkbench",
+        "stars": 1,
+        "tier": "B",
+        "score": 24,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps",
+        "owner": "makoto-developer",
+        "contributors_count": 1,
+        "commits_count": 10,
+        "created_at": null,
+        "last_commit_date": "2026-01-25T06:10:01Z",
+        "description": "JetBrains MPSでClaudeでアプリを作る",
+        "url": "https://github.com/makoto-developer/mps",
+        "stars": 0,
+        "tier": "B",
+        "score": 20,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-transformation-ansible",
+        "owner": "UST-DeMAF",
+        "contributors_count": 2,
+        "commits_count": 31,
+        "created_at": null,
+        "last_commit_date": "2025-07-29T09:52:13Z",
+        "description": "JetBrains MPS project for transforming Ansible deployment models to EDMM",
+        "url": "https://github.com/UST-DeMAF/mps-transformation-ansible",
+        "stars": 0,
+        "tier": "B",
+        "score": 20,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "modelix.mps",
+        "owner": "modelix",
+        "contributors_count": 6,
+        "commits_count": 1137,
+        "created_at": null,
+        "last_commit_date": "2023-09-06T08:48:43Z",
+        "description": "Modelix components which are related to and versioned alongside JetBrains MPS",
+        "url": "https://github.com/modelix/modelix.mps",
+        "stars": 0,
+        "tier": "B",
+        "score": 28,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-env-gen-gradle-plugin",
+        "owner": "nkoester",
+        "contributors_count": 1,
+        "commits_count": 24,
+        "created_at": null,
+        "last_commit_date": "2026-03-12T11:58:02Z",
+        "description": "Allows you to create isolated and project specific configuration environments for JetBrains MPS",
+        "url": "https://github.com/nkoester/mps-env-gen-gradle-plugin",
+        "stars": 0,
+        "tier": "B",
+        "score": 23,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "ClassDiagramDSL",
+        "owner": "sxomile",
+        "contributors_count": 1,
+        "commits_count": 22,
+        "created_at": null,
+        "last_commit_date": "2026-01-23T14:34:55Z",
+        "description": "Domain specific language for textual definition of class diagrams. Developed using JetBrains MPS tool.",
+        "url": "https://github.com/sxomile/ClassDiagramDSL",
+        "stars": 0,
+        "tier": "B",
+        "score": 23,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "NYoSh.core",
+        "owner": "MetaR-Languages",
+        "contributors_count": 3,
+        "commits_count": 213,
+        "created_at": null,
+        "last_commit_date": "2020-06-11T22:15:50Z",
+        "description": "NYoSh is designed as a modern replacement for Unix/Linux command line shells (BASH, TSCH, C shell, KSH, Bourne shell). NYoSh is built as a collection of languages implemented with the Jetbrains MPS language workbench.",
+        "url": "https://github.com/MetaR-Languages/NYoSh.core",
+        "stars": 0,
+        "tier": "B",
+        "score": 22,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "mps-code-reviewer",
+        "owner": "Workday",
+        "contributors_count": 3,
+        "commits_count": 39,
+        "created_at": null,
+        "last_commit_date": "2020-03-20T19:47:08Z",
+        "description": "Code Review for JetBrains MPS providing integration with Bitbucket",
+        "url": "https://github.com/Workday/mps-code-reviewer",
+        "stars": 16,
+        "tier": "C",
+        "score": 17,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Editor2PDF",
+        "owner": "CampagneLaboratory",
+        "contributors_count": 2,
+        "commits_count": 87,
+        "created_at": null,
+        "last_commit_date": "2018-04-26T18:57:48Z",
+        "description": "Provides a mechanism to render an MPS editor to PDF automatically.",
+        "url": "https://github.com/CampagneLaboratory/Editor2PDF",
+        "stars": 10,
+        "tier": "C",
+        "score": 18,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-examples",
+        "owner": "DSLFoundry",
+        "contributors_count": 2,
+        "commits_count": 47,
+        "created_at": null,
+        "last_commit_date": "2018-07-26T15:34:08Z",
+        "description": "A collection of examples for various JetBrains MetaProgrammingSystem (MPS) constructions",
+        "url": "https://github.com/DSLFoundry/mps-examples",
+        "stars": 10,
+        "tier": "C",
+        "score": 14,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "ShapeBuilderLanguage",
+        "owner": "ProgramLeague",
+        "contributors_count": 1,
+        "commits_count": 32,
+        "created_at": null,
+        "last_commit_date": "2017-04-21T17:39:00Z",
+        "description": "A DSL to draw graphics on a JFrame, which is built with JetBrains MPS",
+        "url": "https://github.com/ProgramLeague/ShapeBuilderLanguage",
+        "stars": 7,
+        "tier": "C",
+        "score": 12,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-graphicalstructureeditor",
+        "owner": "DSLFoundry",
+        "contributors_count": 3,
+        "commits_count": 39,
+        "created_at": null,
+        "last_commit_date": "2019-10-11T07:38:18Z",
+        "description": "A graphical editor for the structure aspect of MPS languages",
+        "url": "https://github.com/DSLFoundry/mps-graphicalstructureeditor",
+        "stars": 3,
+        "tier": "C",
+        "score": 15,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "LanguageVisualization",
+        "owner": "maystar",
+        "contributors_count": 2,
+        "commits_count": 46,
+        "created_at": null,
+        "last_commit_date": "2016-03-02T00:02:24Z",
+        "description": "This is an extension language for the Meta Programming System of MPS (http://www.jetbrains.com/mps/). It can be used to show the structure of a language as UML class diagram.",
+        "url": "https://github.com/maystar/LanguageVisualization",
+        "stars": 3,
+        "tier": "C",
+        "score": 12,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Projectwetstaal",
+        "owner": "diederikd",
+        "contributors_count": 1,
+        "commits_count": 30,
+        "created_at": null,
+        "last_commit_date": "2023-07-27T10:03:06Z",
+        "description": "Wetstaal in Jetbrains MPS",
+        "url": "https://github.com/diederikd/Projectwetstaal",
+        "stars": 3,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "-DEPRECATED-mps-textgen-multilanguage",
+        "owner": "DSLFoundry",
+        "contributors_count": 3,
+        "commits_count": 32,
+        "created_at": null,
+        "last_commit_date": "2016-11-09T14:01:38Z",
+        "description": "A textgen with multiline editor that plays nice with the MPS generator toolchain.",
+        "url": "https://github.com/DSLFoundry/-DEPRECATED-mps-textgen-multilanguage",
+        "stars": 2,
+        "tier": "C",
+        "score": 15,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Lochkarte",
+        "owner": "coolya",
+        "contributors_count": 1,
+        "commits_count": 29,
+        "created_at": null,
+        "last_commit_date": "2021-02-17T08:27:46Z",
+        "description": "A project template plugin for JetBrains Meta Programming System (MPS)",
+        "url": "https://github.com/coolya/Lochkarte",
+        "stars": 2,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "StubsGenerator",
+        "owner": "wirthma",
+        "contributors_count": 3,
+        "commits_count": 49,
+        "created_at": null,
+        "last_commit_date": "2023-04-05T13:00:03Z",
+        "description": "Generator of JetBrains MPS stub models from a stubs specification file using a defined stub-to-concept transformation",
+        "url": "https://github.com/wirthma/StubsGenerator",
+        "stars": 2,
+        "tier": "C",
+        "score": 15,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-editor-override",
+        "owner": "slisson",
+        "contributors_count": 4,
+        "commits_count": 24,
+        "created_at": null,
+        "last_commit_date": "2013-12-05T08:50:45Z",
+        "description": "Allows to override the editor component of any concept",
+        "url": "https://github.com/slisson/mps-editor-override",
+        "stars": 1,
+        "tier": "C",
+        "score": 15,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "MPS_WASM",
+        "owner": "polymorfiq",
+        "contributors_count": 1,
+        "commits_count": 8,
+        "created_at": null,
+        "last_commit_date": "2024-03-03T23:01:40Z",
+        "description": "WebAssembly Language in Jetbrains MPS",
+        "url": "https://github.com/polymorfiq/MPS_WASM",
+        "stars": 1,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Zark-MPS",
+        "owner": "cjdaly",
+        "contributors_count": 1,
+        "commits_count": 30,
+        "created_at": null,
+        "last_commit_date": "2022-08-29T00:49:53Z",
+        "description": "game experiments in Jetbrains MPS",
+        "url": "https://github.com/cjdaly/Zark-MPS",
+        "stars": 1,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Nodereview",
+        "owner": "diederikd",
+        "contributors_count": 1,
+        "commits_count": 20,
+        "created_at": null,
+        "last_commit_date": "2019-08-10T13:24:50Z",
+        "description": "Plugin for JetBrains MPS to review nodes",
+        "url": "https://github.com/diederikd/Nodereview",
+        "stars": 1,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "diglex_dsl",
+        "owner": "kanterov",
+        "contributors_count": 1,
+        "commits_count": 61,
+        "created_at": null,
+        "last_commit_date": "2011-04-17T18:57:58Z",
+        "description": "Diglex DSL Project based on Jetbrains MPS",
+        "url": "https://github.com/kanterov/diglex_dsl",
+        "stars": 1,
+        "tier": "C",
+        "score": 14,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "mps-markdown",
+        "owner": "neumantm",
+        "contributors_count": 1,
+        "commits_count": 16,
+        "created_at": null,
+        "last_commit_date": "2023-07-26T09:24:08Z",
+        "description": "Implementation of the markdown language for JetBrains MPS",
+        "url": "https://github.com/neumantm/mps-markdown",
+        "stars": 1,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MPS_Midi",
+        "owner": "polymorfiq",
+        "contributors_count": 1,
+        "commits_count": 14,
+        "created_at": null,
+        "last_commit_date": "2024-03-14T03:19:42Z",
+        "description": "The Midi file format represented as a language in Jetbrains MPS",
+        "url": "https://github.com/polymorfiq/MPS_Midi",
+        "stars": 1,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "alfi",
+        "owner": "neumantm",
+        "contributors_count": 2,
+        "commits_count": 39,
+        "created_at": null,
+        "last_commit_date": "2024-09-04T17:17:27Z",
+        "description": "Action Language for foundational UML as an Interdiate Language (in Jetbrains MPS)",
+        "url": "https://github.com/neumantm/alfi",
+        "stars": 1,
+        "tier": "C",
+        "score": 18,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-to-ecore-plugin",
+        "owner": "rosym-project",
+        "contributors_count": 3,
+        "commits_count": 25,
+        "created_at": null,
+        "last_commit_date": "2020-06-17T10:30:17Z",
+        "description": "Export the structure aspect of an MPS language as an Ecore model",
+        "url": "https://github.com/rosym-project/mps-to-ecore-plugin",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "AFCLEditor",
+        "owner": "Apollo-AFCL",
+        "contributors_count": 4,
+        "commits_count": 25,
+        "created_at": null,
+        "last_commit_date": "2021-12-15T08:44:21Z",
+        "description": "Repository for the MPS-based editor for the AFCL language.",
+        "url": "https://github.com/Apollo-AFCL/AFCLEditor",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Crysl-MPS",
+        "owner": "CROSSINGTUD",
+        "contributors_count": 3,
+        "commits_count": 43,
+        "created_at": null,
+        "last_commit_date": "2023-01-26T14:36:23Z",
+        "description": "Port of Crysl Editor to Jetbrains MPS",
+        "url": "https://github.com/CROSSINGTUD/Crysl-MPS",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-conditional-editor",
+        "owner": "slisson",
+        "contributors_count": 3,
+        "commits_count": 31,
+        "created_at": null,
+        "last_commit_date": "2016-04-27T09:09:30Z",
+        "description": "No description",
+        "url": "https://github.com/slisson/mps-conditional-editor",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-boolean-editor",
+        "owner": "slisson",
+        "contributors_count": 4,
+        "commits_count": 26,
+        "created_at": null,
+        "last_commit_date": "2016-04-27T09:09:01Z",
+        "description": "No description",
+        "url": "https://github.com/slisson/mps-boolean-editor",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Editor2PDF",
+        "owner": "MetaR-Languages",
+        "contributors_count": 2,
+        "commits_count": 89,
+        "created_at": null,
+        "last_commit_date": "2020-07-09T02:32:42Z",
+        "description": "Provides a mechanism to render an MPS editor to PDF automatically.",
+        "url": "https://github.com/MetaR-Languages/Editor2PDF",
+        "stars": 0,
+        "tier": "C",
+        "score": 14,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "jetbrains.mps.tutorial.calculator",
+        "owner": "largomst",
+        "contributors_count": 1,
+        "commits_count": 35,
+        "created_at": null,
+        "last_commit_date": "2024-04-08T01:40:29Z",
+        "description": "jetbrains mps 的计算器实现教程",
+        "url": "https://github.com/largomst/jetbrains.mps.tutorial.calculator",
+        "stars": 0,
+        "tier": "C",
+        "score": 11,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "JetBrainsMPS-Introduction",
+        "owner": "GenserDev",
+        "contributors_count": 2,
+        "commits_count": 4,
+        "created_at": null,
+        "last_commit_date": "2026-01-26T07:18:32Z",
+        "description": "Laboratorio 1 del curso de Diseño de lenguajes",
+        "url": "https://github.com/GenserDev/JetBrainsMPS-Introduction",
+        "stars": 0,
+        "tier": "C",
+        "score": 19,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Shapes_DSL_JetBrains_mps",
+        "owner": "Sofiamishel2003",
+        "contributors_count": 1,
+        "commits_count": 5,
+        "created_at": null,
+        "last_commit_date": "2025-01-19T18:35:59Z",
+        "description": "No description",
+        "url": "https://github.com/Sofiamishel2003/Shapes_DSL_JetBrains_mps",
+        "stars": 0,
+        "tier": "C",
+        "score": 11,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Diseno_DSL_con_JetBrains_MPS",
+        "owner": "BiancaCalderon",
+        "contributors_count": 2,
+        "commits_count": 5,
+        "created_at": null,
+        "last_commit_date": "2025-01-24T03:40:49Z",
+        "description": "No description",
+        "url": "https://github.com/BiancaCalderon/Diseno_DSL_con_JetBrains_MPS",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "mps-dependencyDiagram",
+        "owner": "nkoester",
+        "contributors_count": 1,
+        "commits_count": 27,
+        "created_at": null,
+        "last_commit_date": "2024-11-14T11:06:51Z",
+        "description": "Jetbrains MPS plugin to generate a module dependency graph",
+        "url": "https://github.com/nkoester/mps-dependencyDiagram",
+        "stars": 0,
+        "tier": "C",
+        "score": 14,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Diseno-de-DSL-con-JetBrains-MPS",
+        "owner": "MiltonPolanco",
+        "contributors_count": 1,
+        "commits_count": 3,
+        "created_at": null,
+        "last_commit_date": "2026-02-02T19:43:42Z",
+        "description": "No description",
+        "url": "https://github.com/MiltonPolanco/Diseno-de-DSL-con-JetBrains-MPS",
+        "stars": 0,
+        "tier": "C",
+        "score": 17,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "ProjectBrowserPlugin",
+        "owner": "diederikd",
+        "contributors_count": 1,
+        "commits_count": 56,
+        "created_at": null,
+        "last_commit_date": "2019-07-29T04:58:40Z",
+        "description": "Sample of a Jetbrains MPS plugin which integrates JavaFXBrowser",
+        "url": "https://github.com/diederikd/ProjectBrowserPlugin",
+        "stars": 0,
+        "tier": "C",
+        "score": 12,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "MPS-ER-Model",
+        "owner": "daWieser",
+        "contributors_count": 2,
+        "commits_count": 15,
+        "created_at": null,
+        "last_commit_date": "2024-05-25T13:41:21Z",
+        "description": "This is a ER Model implementation of Jetbrains MPS",
+        "url": "https://github.com/daWieser/MPS-ER-Model",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MPS-Catatan-Absensi-",
+        "owner": "ElLukman",
+        "contributors_count": 1,
+        "commits_count": 2,
+        "created_at": null,
+        "last_commit_date": "2025-11-03T13:22:21Z",
+        "description": "Tugas Programming Language Pragmatics belajar membuat DSL menggunakan MPS Jetbrains",
+        "url": "https://github.com/ElLukman/MPS-Catatan-Absensi-",
+        "stars": 0,
+        "tier": "C",
+        "score": 17,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "MSL",
+        "owner": "MSchalken",
+        "contributors_count": 2,
+        "commits_count": 35,
+        "created_at": null,
+        "last_commit_date": "2018-06-24T11:18:42Z",
+        "description": "A domain specific language for generating music using JetBrains' MPS",
+        "url": "https://github.com/MSchalken/MSL",
+        "stars": 0,
+        "tier": "C",
+        "score": 10,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "Shapes",
+        "owner": "Gappylul",
+        "contributors_count": 1,
+        "commits_count": 1,
+        "created_at": null,
+        "last_commit_date": "2025-11-16T19:30:45Z",
+        "description": "A dsl language made with Jetbrains MPS for drawing symbols.",
+        "url": "https://github.com/Gappylul/Shapes",
+        "stars": 0,
+        "tier": "C",
+        "score": 17,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    },
+    {
+        "name": "CsStubsGenerator",
+        "owner": "wirthma",
+        "contributors_count": 3,
+        "commits_count": 42,
+        "created_at": null,
+        "last_commit_date": "2023-04-05T13:10:06Z",
+        "description": "Generator of JetBrains MPS C# stub models from a stubs specification file",
+        "url": "https://github.com/wirthma/CsStubsGenerator",
+        "stars": 0,
+        "tier": "C",
+        "score": 13,
+        "gemini_analysis": {
+            "error": "name 'time' is not defined"
+        }
+    },
+    {
+        "name": "DSL_GeometricLang",
+        "owner": "MuhamadSopianaKun26",
+        "contributors_count": 1,
+        "commits_count": 2,
+        "created_at": null,
+        "last_commit_date": "2025-11-04T03:44:42Z",
+        "description": "Latihan pertama membuat bahasa DSL di MPS jetBrain",
+        "url": "https://github.com/MuhamadSopianaKun26/DSL_GeometricLang",
+        "stars": 0,
+        "tier": "C",
+        "score": 17,
+        "gemini_analysis": {
+            "error": "README not found."
+        }
+    }
+]

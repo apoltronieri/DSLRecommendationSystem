@@ -130,8 +130,6 @@ QUERY = {
             "constraints.mps in:path",
             "editor.mps in:path",
             "jetbrains.mps in:file",
-            "languages/ in:path",
-            "models/ in:path",
             "extension:mps",
             "extension:mpl",
         ]
